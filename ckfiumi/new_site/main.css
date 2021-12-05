@@ -25,6 +25,13 @@ body {
 #list {
   width: 49vw;
 }
+#list li[data-id] {
+  color: blue;
+  text-decoration: underline;
+}
+#list li[data-id]:hover {
+  cursor: pointer;
+}
 
 
 #searchDiv {
