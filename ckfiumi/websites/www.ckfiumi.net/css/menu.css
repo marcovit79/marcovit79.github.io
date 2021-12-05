@@ -1,0 +1,177 @@
+.div_mainheader {
+    float:none; 
+    font: 1.2em Ubuntu,arial;
+    margin: 70px 0 0;
+}
+#menu-close{
+    font-size: 1.5em;
+    position: absolute;
+    right: 0.5em;
+}
+.full{width:98%}
+.loading2{
+ height: 35px;
+}
+#cercaFiume{border:3px solid #323949}
+.font-large{
+    font-size:large;
+}
+.sfondoscuro{
+    padding-bottom:10px;
+    background-color:#F7F7F7;
+}
+.btn_submit{
+    width:14%;
+    text-align:center;
+    margin-top:1em;
+}
+.btn_diff{
+    width:15.5em;
+}
+textarea.rounded-small {
+    min-height: 100px;
+}
+textarea.rounded-large {
+    min-height: 400px;
+}
+input[type="text"].grado-2{width:auto}
+input[type="text"].grado-3{width:auto}
+input[type="text"].grado-5{width:auto}
+.differente{background-color:#ff9933}
+.title_action{
+    color:silver;
+}
+#mainheader a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#open-left {
+    background-image: url("http://k.ckfiumi.net/img/open.png");
+    background-position: 0 4%;
+    background-repeat: no-repeat;
+    display: none;
+    height: 96px;
+    width: 44px;
+    padding-left: 25px;
+}
+.snap-content {
+  position: absolute;
+  top: 113px;
+  right: 0;
+  bottom: 0;
+  left: 264px;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  background-color:#fff;
+  overflow: auto;
+}
+
+.snap-drawers {
+  position: absolute;
+  top: 113px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.snap-drawer {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  width: 265px;
+  height: auto;
+  background-color:#000;
+  overflow: auto;
+}
+
+.snap-drawer-left {
+  left: 0;
+  z-index: 2;
+}
+
+.snap-drawer-right {
+  right: 0;
+  z-index: 1;
+}
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+  display: none;
+}
+
+.snapjs-expand-left .snap-drawer-left,
+.snapjs-expand-right .snap-drawer-right {
+  width: 100%;
+}
+
+/* Default menu bar styles */
+.snap-drawers {
+  background: #323949;
+}
+
+.snap-drawer {
+    background: #323949;
+    color: #eee;
+}
+
+.snap-drawer h3 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 15px;
+}
+
+.snap-drawer h4 {
+  padding: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+}
+
+.snap-drawer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.snap-drawer li > a {
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #000;
+  text-decoration: none;
+  color: #ccc;
+  text-indent: 20px;
+}
+
+.snap-drawer p {
+  opacity: 0.5;
+  padding: 15px;
+  font-size: 12px;
+}
+/************** MAIN **************/
+.bodywidth {
+    width: 90%;
+}
+
+/* Under 800px */
+@media only screen and (max-width:820px) and (min-width:621px) {
+    .snap-drawers			{ top:80px}
+    .snap-content			{ top:80px}
+}
+/* Under 600px */
+@media only screen and (max-width:620px) and (min-width:501px) {
+    .snap-drawers			{ top:80px}
+    .snap-content			{ top:80px}
+}
+/* Under 480px */
+@media only screen and (max-width:500px) and (min-width:341px) {
+    .snap-drawers			{ top:54px}
+    .snap-content			{ top:54px}
+}
+

@@ -1,0 +1,438 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>Ckfiumi :: Calendario appuntamenti uscite raduni e affini in canoa/kayak </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa,"/>
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..."/>
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0="/>
+<link href="/css/A.defaults.css.pagespeed.cf.fmQPojuK-r.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/js/all-1.js.pagespeed.jm.oQxXBlF1gD.js"></script>
+<script type="text/javascript">if(top.location!=location){top.location.href=document.location.href;}</script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+<div id="header">
+<!--	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+-->	</div>
+<div id="mainFront">
+<img id="a" src="/img/header/07.jpg.pagespeed.ce.P94ABswwPo.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+</div>
+<div id="containerMenu"><div id="menu_left"><img src="/img/xsfondo_barra_sx.gif.pagespeed.ic.pDJxMOJcbI.png" alt=""/></div><div id="menu_right"><img src="/img/xsfondo_barra_dx.gif.pagespeed.ic.5a2WR5Ag1k.png" alt=""/></div><div id="menu_orizz">
+<a class="menu" href="/">Home</a> |
+<a class="menu" href="/fiume.phtml">Fiumi</a> |
+<a class="menu_selected_U" href="calendario.phtml">Appuntamenti</a> |
+<a class="menu" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+<a class="menu" href="http://forum.ckfiumi.net">Forums CKI</a> |
+<a class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+<a class="menu" href="/contatto.phtml">Scrivici</a> |
+<a class="menu" href="/login.phtml">Login</a> |
+</div>
+</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->
+<!-- BEGIN MAIN AREA -->
+<div id="main">
+<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+<tr>
+<td class="sxCol">
+<div id="elCont">
+<div id="elCont_left" class="z_calendario"></div><div id="elCont_right">Appuntamenti del mese</div>
+</div>
+<div id="sottoElCont">
+<form id="LOC" action="/news/calendario.phtml" method="post">
+<!-- BEGIN  CONTENTS -->
+<div style="float:left;margin-top:5px;margin-left:10px;border:1px solid #2E6287;text-align:center;width:330px;">
+<table border="0" cellspacing="2" style="text-align:center;width:330px">
+<tr>
+<td align="right" valign="top" class="listchiara">
+<select name="m">
+<option value="1">Gennaio</option>
+<option value="2">Febbraio</option>
+<option value="3">Marzo</option>
+<option value="4">Aprile</option>
+<option value="5">Maggio</option>
+<option value="6" selected="selected">Giugno</option>
+<option value="7">Luglio</option>
+<option value="8">Agosto</option>
+<option value="9">Settembre</option>
+<option value="10">Ottobre</option>
+<option value="11">Novembre</option>
+<option value="12">Dicembre</option>
+</select>
+<select name="y">
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012" selected="selected">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+</select>
+<input class="bottone" type="submit" name="cerca" value="cerca"/>
+</td>
+</tr>
+</table>
+<table border="0" cellspacing="2" style="text-align:center;width:330px">
+<tr>
+<td align="center" valign="top" class="calendarHeader"><b>D</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>L</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>G</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>V</b></td>
+<td align="center" valign="top" class="calendarHeader"><b>S</b></td>
+</tr>
+<tr>
+<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287">&nbsp;</td>
+<td style="border:1px solid #2E6287">&nbsp;</td>
+<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=1&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">1</a></td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=2&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">2</a></td>
+</tr>
+<tr>
+<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="calendario.phtml?d=3&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a3">3</a></td>
+<td style="border:1px solid #2E6287">4</td>
+<td style="border:1px solid #2E6287" class="day">5</td>
+<td style="border:1px solid #2E6287" class="day">6</td>
+<td style="border:1px solid #2E6287" class="day">7</td>
+<td style="border:1px solid #2E6287" class="day">8</td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=9&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a9">9</a></td>
+</tr>
+<tr>
+<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="calendario.phtml?d=10&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a9">10</a></td>
+<td style="border:1px solid #2E6287">11</td>
+<td style="border:1px solid #2E6287" class="day">12</td>
+<td style="border:1px solid #2E6287" class="day">13</td>
+<td style="border:1px solid #2E6287" class="day">14</td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=15&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a15">15</a></td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=16&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a15">16</a></td>
+</tr>
+<tr>
+<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="calendario.phtml?d=17&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a15">17</a></td>
+<td style="border:1px solid #2E6287">18</td>
+<td style="border:1px solid #2E6287" class="day">19</td>
+<td style="border:1px solid #2E6287" class="day">20</td>
+<td style="border:1px solid #2E6287" class="day">21</td>
+<td style="border:1px solid #2E6287" class="day">22</td>
+<td style="border:1px solid #2E6287" class="day">23</td>
+</tr>
+<tr>
+<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="calendario.phtml?d=24&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a24">24</a></td>
+<td style="border:1px solid #2E6287">25</td>
+<td style="border:1px solid #2E6287" class="day">26</td>
+<td style="border:1px solid #2E6287" class="day">27</td>
+<td style="border:1px solid #2E6287" class="day">28</td>
+<td style="border:1px solid #2E6287" class="day">29</td>
+<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="calendario.phtml?d=30&amp;m=6&amp;y=2012&amp;Dove=&amp;Tipo=&amp;Difficolta=#a30">30</a></td>
+</tr>
+</table>
+<div style="width:150px;margin-top:3px;margin-bottom:5px;padding-bottom:5px;border:1px solid #2E6287 ">
+<a style="color:#2E6287;font-weight:bold;padding-left:10px;padding-right:10px;padding-bottom:2px;" href="calendario.phtml?ev_status=2">inserisci una data</a>
+</div>
+</div>
+<div style="float:left;margin-left:30px;margin-top:22px;padding:4px;background-color:#EAEBEE;border:1px solid #CACAD2;">
+tipo di appuntamento<br/>
+<select class="sel_formRicercaEventi" name="Tipo">
+<option value=""></option>
+<option value="Gara">Gara</option>
+<option value="Raduno">Raduno</option>
+<option value="Rodeo">Rodeo</option>
+<option value="Serata Video">Serata Video</option>
+<option value="Spedizione/Tour">Spedizione/Tour</option>
+<option value="Uscita">Uscita</option>
+</select><br/>
+dove<br/>
+<select class="sel_formRicercaEventi" name="Dove">
+<option value=""></option>
+<option value="Acqua Bianca">Acqua Bianca</option>
+<option value="Fiume">Fiume</option>
+<option value="Lago">Lago</option>
+<option value="Mare">Mare</option>
+<option value="Piscina">Piscina</option>
+<option value="Sala">Sala</option>
+<option value="Spot">Spot</option>
+</select><br/>
+adatto per<br/>
+<select class="sel_formRicercaEventi" name="Difficolta">
+<option value=""></option>
+<option value="Tutti">Tutti</option>
+<option value="Principianti">Principianti</option>
+<option value="Intermedi">Intermedi</option>
+<option value="Esperti">Esperti</option>
+</select><br/>
+<input style="margin-left:40px;" class="bottone" type="submit" name="go" value="cerca"/>
+</div>
+<div style="height:240px">&nbsp;</div>
+<div style="color:red;font-weight:bold;margin-bottom:6px;margin-top:16px;text-align:center"> </div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a30" name="a30" class="">30/05/2012 03/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xAcqua_Bianca.gif.pagespeed.ic.Ah0hqIBrwC.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+Valsesia River Festival - Numerose le discese che la valle offre, adatte ai principianti o agli esperti, e durante il Val Sesia River Festival potrete avvicinarvi al fiume su tratti semplici accompagnati da esperti istruttori, oppure confrontarvi con fortissimi canoisti da tutto il mondo che si sfideranno nelle categorie più competitive delle gare. Potrete anche approfittarne per partecipare a corsi di perfezionamento sugli impegnativi creek locali con i migliori istruttori al mondo che metteranno a vostra disposizione le loro competenze e potranno anche seguirvi con un allenamento personalizzato per preparavi al meglio alle gare.<br/>
+tel: 00447703465338<br/>
+email: kayaking@gene17.com<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a2" name="a2" class="">02/06/2012 02/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+PAGAIANDO CON LA LUNA PIENA - SPECIALE LUCCIOLATA<br/>
+<br/>
+Escursione guidata in canoa al tramonto, nella riserva naturale de "Le Valli Del Mincio".<br/>
+<br/>
+Possibilità di noleggio canoe in loco.<br/>
+tel: Ufficio turistico 0376/653340 - Luca 3398995680<br/>
+email: info@prolocorivalta.mn.it<br/>
+E' gradita la prenotazione<br/>
+tel: 3398995680<br/>
+email: info@prolocorivalta.mn.it<br/>
+<br/>
+<br/>
+tel: Luca<br/>
+email: info@prolocorivalta.mn.it<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a3" name="a3" class="">03/06/2012 03/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+2° raduno dei Meandri del Brenta. Quest'anno il percorso prevede di discendere il tratto del fiume Brenta dalla località di San Giorgio in Brenta fino a Campo S.Martino (partenza della scorsa edizione). La prima parte del percorso prevederà di pagaiare anche su alcuni laghetti comunicanti con il Brenta per poi proseguire tra la rigogliosa vegetazione ripariale fino all'arrivo. Lunghezza circa 14 km, difficoltà massima 1° grado. Per ulteriori informazioni visitare il sito www.canoaclub-padova.com/.<br/>
+tel: 3333255468 (Gian Luca)<br/>
+email: info@canoaclub-padova.com<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a3" name="a3" class="">03/06/2012 03/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xMare.gif.pagespeed.ic.k7BPl8hw0X.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+Domenica 3 giugno 2012 - 15° Raduno Canoistico "Baia delle Favole".<br/>
+Vi aspettiamo a Sestri Levante per una giornata dedicata a tutti i canoisti e alle canoe di ogni tipo (discesa,mare,polinesiana.....) , con un suggestivo percorso che si snoda tra le due baie e un tratto di costa tra i più belli del Tigullio. Per gli affiliati FICK si ricorda che la manifestazione è inserita nel calendario "Sport per tutti".<br/>
+Per informazioni visita il ns.sito www.lnisestrilevante.it<br/>
+Dentone Danilo<br/>
+Lega Navale Italiana - Sestri Levante<br/>
+<br/>
+tel: 3475372010<br/>
+email: sestrilevante@leganavale.it<br/></p>
+</div>
+</div>
+</div>
+<div class="evidenzia">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a9" name="a9" class="">09/06/2012 10/06/2012 Gara</a><br/> adatto a Esperti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xAcqua_Bianca.gif.pagespeed.ic.Ah0hqIBrwC.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+CAMPIONATO ITALIANO KAYAK CROSS 2012. IVREA<br/>
+I concomitanza con i TEVA EXTREME OUTDOOR GAMES domenica 10 giugno si terra il campiontao italiano di kayak cross.<br/>
+programma di massima:<br/>
+sabato pomeriggio iscrizioni<br/>
+sabato sera teva party<br/>
+domenica mattina qualificazioni<br/>
+domenica pomeriggio finali.<br/>
+tel: francesco salvato 340-6541843<br/>
+email: info@freeflowkayak.it<br/></p>
+</div>
+</div>
+</div>
+<div class="evidenzia">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a9" name="a9" class="">09/06/2012 10/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xMare.gif.pagespeed.ic.k7BPl8hw0X.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+ARCHEO-KAYAK 2012 golfo Pozzuoli e non solo! La IV edizione del raduno storico tra archeologia natura e kayak ideato da lory x CULTURAVVENTURA insieme a ROMA KAYAK MUNDI e ULISSE 2010 quest'anno è davvero SPECIALE con MARE FIUME e siti archeologici con RIPRESE VIDEO-AEREE DEL RADUNO: SAB 9 giugno discesa fiume Garigliano fino alla foce (18 km) e pranzo nel teatro antico di MINTURNAE - DOM 10 giugno spettacolare pagaiata lungo la costa mitologica flegrea da lucrino a miseno con guida turistica ufficiale e visita scavi archeologici PORTO ROMANO di MISENUM (15 km totali) Prenotate subito per avere la possibilità di pernottare gratuitamente presso struttura pubblica! felici pagaiate lory 339.41.95.725<br/>
+tel: 339-41.95.725<br/>
+email: culturavventura@gmail.com <br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a15" name="a15" class="">15/06/2012 17/06/2012 Gara</a><br/> adatto a Intermedi</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xAcqua_Bianca.gif.pagespeed.ic.Ah0hqIBrwC.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+il Kayak club merano in collaborazione con Exokayak e LaOla-Lienz è lieto di invitarvi al King of the Alps. <br/>
+gara di alto corso internazionale sul fiume Passirio.<br/>
+<br/>
+Programma:<br/>
+venerdì: iscrizioni e film<br/>
+sabato: maratona (6.5km, diff. IV), boatercross per i migliori 32 e openrace per tutti gli esclusi dalla finale. a seguire party.<br/>
+domenica: tour guidati sui più belli fiumi altoatesini <br/>
+<br/>
+premi per i vincitori delle gare singole e sostanziosi premi in denaro per la classifica generale (primi 5 uomini e prime 3 donne) <br/>
+<br/>
+maggiori info per iscrizioni e tour seguiranno presto.<br/>
+tel: Luca Daprà 3486612689<br/>
+email: luca.dapra@gmail.com<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a17" name="a17" class="">17/06/2012 17/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+Il Mincio in Canoa - L'alto Mincio<br/>
+Superati gli sbarramenti tra Borghetto e Pozzolo, il Mincio scorre con acque poco profonde su un letto ghiaioso, che si trasforma lentamente in palude nei pressi di Rivalta sul Mincio.<br/>
+Difficoltà: I grado, trasbordo obbligatorio a Sacca di Goito.<br/>
+Possibilità di noleggio canoe in loco.<br/>
+tel: Ufficio turistico 0376/653340 - Luca 3398995680<br/>
+email: info@prolocorivalta.mn.it<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a24" name="a24" class="">24/06/2012 24/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+raduno nel delta del po tra canneti e barene con bagno in mare a metà percorso 15 km circa adatti a tutti per dettagli scrivere alla mail <br/>
+tel: 34008368639<br/>
+email: germanoreale50@libero.it<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a24" name="a24" class="">24/06/2012 24/06/2012 Raduno</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+Domenica 24 giugno 2012 presso limbarco del pontile di Torrita Tiberina-Ponte Montorso (Poggio Mirteto scalo) lorganizzazione della Discesa Internazionale del Tevere in canoa organizza la giornata Discesa del Tevere, porte aperte sul fiume.<br/>
+L' iniziativa, si prefigge lo scopo di far conoscere la Discesa Internazionale del Tevere in Canoa evento che si tiene ogni anno dal 25 aprile al 1 maggio. Nel 2013 ci sarà la XXXIV edizione<br/>
+Vista la vicinanza con la stazione ferroviaria di Poggio Mirteto Scalo si consiglia lutilizzo del sistema bici treno, (partenza Roma Tiburtina)<br/>
+Per le pre-iscrizioni e le informazioni su come arrivare contattare <br/>
+Info: Meg 3391735836; Sergio 3281858517, Mauro 3282579603<br/>
+scrivi@discesadeltevere.org<br/>
+http://discesateverecanoa2013.blogspot.it/<br/>
+tel: 3282579603<br/>
+email: scrivi@discesadeltevere.org<br/></p>
+</div>
+</div>
+</div>
+<div class="">
+<div class="elencoContainer">
+<div class="elencoSx">
+<p><b><a id="a30" name="a30" class="">30/06/2012 30/06/2012 Spedizione/Tour</a><br/> adatto a Tutti</b></p>
+</div>
+<div class="elencoDx">
+<img src="/img/calendario/xFiume.gif.pagespeed.ic.8PeeFut79N.png" alt=""/>
+</div>
+<div class="elencoEvento"><p>
+Escursione guidata in canoa al tramonto, nella riserva naturale de <br/>
+tel: 3398995680<br/>
+email: info@prolocorivalta.mn.it<br/></p>
+</div>
+</div>
+</div>
+<!-- END  CONTENTS -->
+</form>
+</div>
+</td>
+<td class="dxCol">
+<!-- INIZIO MENU DX -->
+<div id="menudx">
+<ul>
+<li class="submenu_selected_U"><a href="calendario.phtml">Calendario</a></li>
+<li class="menu"><a href="rss.phtml">Consulta i Forum (rss)</a></li>
+</ul>
+</div>
+<div class="textWel">
+<a href="/registra.phtml">Diventa anche tu un editore!</a>
+</div>
+<div class="textWel">
+<p>E' a disposizione il calendario delle attività dei canoisti made in Italy<br/>
+<br/>per inserire un appuntamento <a href="calendario.phtml?ev_status=2">clicca qui</a>
+</p>
+</div>
+<div class="textWel">
+<p>TI RICORDIAMO CHE:<br/>
+1- Prima di partire è buona norma telefonare agli organizzatori per chiedere
+conferma dell' evento.<br/>
+2- Consulta le news aggiornate sul <a href="rss.phtml">forum di CKI</a> per le ultime novità
+</p>
+</div>
+<!-- FINE MENU DX -->
+</td>
+</tr>
+</table>
+</div>
+<!-- END MAIN AREA -->
+<!-- INIZIO FOOTER -->
+<div id="footer">
+<p><a href="/">home</a> &#8226;
+<a href="/fiume.phtml">fiumi</a> &#8226;
+<a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+<a href="/help.phtml">come funziona</a> &#8226;
+<a href="/gradi.phtml">I gradi WW</a> &#8226;
+<a href="/contatto.phtml">scrivici</a> &#8226;
+<a href="/profilo.phtml/dani">webmaster</a>
+</p>
+<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o
+pubblicazione anche parziale per fini commerciali<br/>
+</p>
+<p class="loghi"><a href="/redirect.phtml?target=firaft" rel="nofollow"><img src="/img/sponsor/xfiraft.jpg.pagespeed.ic.7L4NqbLtIC.jpg" style="border:0px" alt="FIRAFT"/></a>
+&nbsp;<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg.pagespeed.ce.gXOIyL-4rP.jpg" style="border:0px" alt="FICK"/></a>
+&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg.pagespeed.ce.yEain7cY8r.jpg" style="border:0px" alt="FICT"/></a>
+&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg.pagespeed.ce.TqlS86I2Jb.jpg" style="border:0px" alt="UISP"/></a>
+</p>
+</div>
+</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct="UA-666569-2";urchinTracker();</script>
+</body>
+</html>

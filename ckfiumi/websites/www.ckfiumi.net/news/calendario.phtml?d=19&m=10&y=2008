@@ -1,0 +1,449 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ckfiumi :: Calendario appuntamenti uscite raduni e affini in canoa/kayak </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa," />
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..." />
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0=" />
+<link href="/css/defaults.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/dyna.js"></script>
+<script type="text/javascript" src="/js/p_switch.js"></script>	
+<script type="text/javascript" src="/js/net/ckfiumi/prototype.js"></script>
+<script type="text/javascript" src="/js/net/ckfiumi/text-utils.js"></script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+	<div id="header">
+	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+	</div>
+	<div id="mainFront">
+	  	<img id="a" src="/img/header/27.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+	</div>
+    <div id="containerMenu"><div
+   		 id="menu_left"><img src="/img/sfondo_barra_sx.gif"  alt="" /></div><div
+		  id="menu_right"><img src="/img/sfondo_barra_dx.gif"  alt="" /></div><div
+		  id="menu_orizz">
+			<a  class="menu" href="/">Home</a> |
+			<a  class="menu" href="/fiume.phtml">Fiumi</a> |
+			<a  class="menu_selected_U" href="/news/calendario.phtml">Appuntamenti</a> |
+			<a  class="menu" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+			<a  class="menu" href="http://forum.ckfiumi.net">Forums CKI</a> |
+			<a  class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+			<a  class="menu" href="/contatto.phtml">Scrivici</a> |
+			<a  class="menu" href="/login.phtml">Login</a> |
+		</div>
+	</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->	
+
+
+
+	<!-- BEGIN MAIN AREA -->
+	<div id="main">
+		<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+      	<tr>
+        	<td class="sxCol">
+			<div id="elCont">
+				<div id="elCont_left" class="z_calendario"></div><div
+		  		id="elCont_right">Appuntamenti del mese</div>
+			</div>
+			<div id="sottoElCont">	
+				<form id="LOC" action="/news/calendario.phtml" method="post">
+				<!-- BEGIN  CONTENTS -->
+				
+<div style="float:left;margin-top:5px;margin-left:10px;border:1px solid #2E6287;text-align:center;width:330px;">
+		<table border="0"  cellspacing="2" style="text-align:center;width:330px" >
+			<tr>
+			<td align="right" valign="top" class="listchiara">
+			<select name="m">
+				
+				<option value="1" >Gennaio</option>
+				
+				<option value="2" >Febbraio</option>
+				
+				<option value="3" >Marzo</option>
+				
+				<option value="4" >Aprile</option>
+				
+				<option value="5" >Maggio</option>
+				
+				<option value="6" >Giugno</option>
+				
+				<option value="7" >Luglio</option>
+				
+				<option value="8" >Agosto</option>
+				
+				<option value="9" >Settembre</option>
+				
+				<option value="10"  selected="selected">Ottobre</option>
+				
+				<option value="11" >Novembre</option>
+				
+				<option value="12" >Dicembre</option>
+				
+			</select>
+			<select name="y">
+				
+				<option value="2006" >2006</option>
+				
+				<option value="2007" >2007</option>
+				
+				<option value="2008"  selected="selected">2008</option>
+				
+				<option value="2009" >2009</option>
+				
+				<option value="2010" >2010</option>
+				
+			</select>
+			<input  class="bottone"  type="submit" name="cerca" value="cerca" />
+			</td>
+			</tr>	
+		</table>
+		<table border="0" cellspacing="2" style="text-align:center;width:330px">	
+		<tr>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>D</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>L</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>G</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>V</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>S</b></td>
+			
+		</tr>
+ 		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287">&nbsp;</td>
+			<td style="border:1px solid #2E6287" >&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=1&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a1">1</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=2&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a1">2</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=3&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a1">3</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=4&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a1">4</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=5&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">5</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=6&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">6</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=7&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">7</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=8&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">8</a></td>
+			<td style="border:1px solid #2E6287" class="Today"><a class="day_busy" href="/news/calendario.phtml?d=9&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">9</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=10&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">10</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=11&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">11</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=12&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">12</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=13&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">13</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=14&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">14</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=15&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">15</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=16&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">16</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=17&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">17</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=18&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">18</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=19&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a19">19</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=20&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">20</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=21&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">21</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=22&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">22</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=23&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">23</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=24&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">24</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=25&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">25</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=26&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">26</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=27&amp;m=10&amp;y=2008&amp;Dove=&amp;Tipo=&amp;Difficolta=#a2">27</a></td>
+			<td style="border:1px solid #2E6287" class="day">28</td>
+			<td style="border:1px solid #2E6287" class="day">29</td>
+			<td style="border:1px solid #2E6287" class="day">30</td>
+			<td style="border:1px solid #2E6287" class="day">31</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+		</tr> 
+		
+		</table>
+		
+		<div style="width:150px;margin-top:3px;margin-bottom:5px;padding-bottom:5px;border:1px solid #2E6287 ">
+			<a style="color:#2E6287;font-weight:bold;padding-left:10px;padding-right:10px;padding-bottom:2px;"   href="/news/calendario.phtml?ev_status=2">inserisci una data</a>
+		</div>
+</div>
+
+
+<div style="float:left;margin-left:30px;margin-top:22px;padding:4px;background-color:#EAEBEE;border:1px solid #CACAD2;">
+	tipo di appuntamento<br/>
+	<select class="sel_formRicercaEventi" name="Tipo">
+		<option value=""></option>
+		
+		<option value="Gara" >Gara</option>
+		
+		<option value="Raduno" >Raduno</option>
+		
+		<option value="Rodeo" >Rodeo</option>
+		
+		<option value="Serata Video" >Serata Video</option>
+		
+		<option value="Spedizione/Tour" >Spedizione/Tour</option>
+		
+		<option value="Uscita" >Uscita</option>
+		
+	</select><br/>
+	dove<br/>
+	<select class="sel_formRicercaEventi" name="Dove">
+		<option value=""></option>
+		
+		<option value="Acqua Bianca" >Acqua Bianca</option>
+		
+		<option value="Fiume" >Fiume</option>
+		
+		<option value="Lago" >Lago</option>
+		
+		<option value="Mare" >Mare</option>
+		
+		<option value="Piscina" >Piscina</option>
+		
+		<option value="Sala" >Sala</option>
+		
+		<option value="Spot" >Spot</option>
+		
+	</select><br/>
+	adatto per<br/>
+	<select class="sel_formRicercaEventi" name="Difficolta">
+		<option value=""></option>
+		
+		<option value="Tutti" >Tutti</option>
+		
+		<option value="Principianti" >Principianti</option>
+		
+		<option value="Intermedi" >Intermedi</option>
+		
+		<option value="Esperti" >Esperti</option>
+		
+	</select><br/>
+	<input style="margin-left:40px;"  class="bottone"  type="submit" name="go" value="cerca" />
+</div>
+<div style="height:240px">&nbsp;</div>
+<div style="color:red;font-weight:bold;margin-bottom:6px;margin-top:16px;text-align:center"> </div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a1" name="a1" class="">01/10/2008 04/10/2008 Gara</a><br/> adatto a Esperti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Adidas Sickline Extrem WM in Ötztal<br />
+<br />
+per info visitare:<br />
+<a href="www.adidas-sickline.com">www.adidas-sickline.com</a><br/>
+				tel: 3406262458<br/>
+				email: marco.guidi86@gmail.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a2" name="a2" class="">02/10/2008 27/11/2008 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Piscina.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      come tradizione dal 2 ottobre riprenderà l'attività in piscina proposta dai Tecnici FICT, Consalvi-Fanucci- Lazzari-Mandolesi.<br />
+La vasca rimane quella dello Juventus Nuoto in via di Bravetta 539. Tutti i giovedì saremo in acqua dalle 21,50 alle 23,00 con corsi introduzione alla canoa, di eskimo, sugli appoggi, di perfezionamento.  Ed ancora serate dedicate alle propulsioni, a tematiche specifiche sollecitate dai partecipanti alle serate o proposte dallo staff.<br />
+<br/>
+				tel: maurizio consalvi 3403996045<br/>
+				email: maurizioconsalvi@yahoo.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a5" name="a5" class="">05/10/2008 05/10/2008 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      PROMOKAYAK: uscita in mare in kayak domenica 5 ottobre 2008 in Liguria, partenza ed arrivo a Sestri Levante.<br />
+La località è stata proposta in quanto offre unampia e riparata baia, ben accessibile in auto, da cui ci sono diverse possibilità di sviluppo dell'uscita.<br />
+Inoltre eventuali accompagnatori che non vengano in canoa potranno godersi la spiaggia e/o il centro storico del paese.<br />
+<br />
+per maggiori info e contatti <a href="http://forum.ckfiumi.net/index.php?topic=1048.msg3988#msg3988"> vedi sul forum</a><br />
+<br/>
+				tel: 000<br/>
+				email: <br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a18" name="a18" class="">18/10/2008 18/10/2008 Gara</a><br/> adatto a Intermedi</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      ultima tappa della Coppa Italia alto corso 2008.<br />
+Stiamo cercando di organizzare un evento in grande stile riservato esculisivamente alla canoa con gara d'alto corso, gara amatoriale e di medio corso da sotto i tre salti in modo da avvicinare anche canoisti un po meno esperti, la border cross a squadre (forse) e la domenica per i piu audaci e se ci danno i permessi le cascate laterali con salti da 6 e 12 metri.... ce ne sara x tutti i gusti !!!!<br />
+<br />
+maggiori info e contatti:<br />
+<a href="http://forum.ckfiumi.net/index.php?topic=989.0">vai sul forum CKI</a><br/>
+				tel: 000<br/>
+				email: <br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a19" name="a19" class="">19/10/2008 19/10/2008 Gara</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Maratona "Terra dei forti" 2008 sul fiume Adige.<br />
+Possono iscriversi alla manifestazione anche gli amatori delle varie discipline per effettuare una discesa non agonistica.<br />
+<br />
+Maggiori info su: <a href="http://www.adigemarathon.it">www.adigemarathon.it</a><br />
+<br/>
+				tel: +39 340 5535103<br/>
+				email: fick.alviano@tin.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a26" name="a26" class="">26/10/2008 26/10/2008 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      ASD Onda Blu Canoa e Rafting è lieta di invitarvi alla riapertura della sede di Motta Visconti (MI), presso il Centro Parco Geraci.<br />
+<br />
+Domenica 26 ottobre giornata di festa dedicata ai canoisti.<br />
+<br />
+Programma<br />
+A partire dalle 10.00 e per tutta la giornata mercatino canoistico dellusato per vendere o scambiare canoe e accessori (aperto a tutti). Sono già disponibili diverse imbarcazioni: kayak, canoe canadesi, gommoni.<br />
+<br />
+Ore 13.00 rinfresco<br />
+Ore 15.00 proiezione filmati<br />
+Ore 16.30 presentazione del primo raduno internazionale di canoe canadesi sul Ticino (18 e 19 aprile 2009).<br />
+<br />
+Per chi vorrà, ci sarà la possibilità di scendere il Ticino da Motta Visconti a Bereguardo (4 km.), Onda Blu organizzerà il recupero.<br />
+<br />
+Vi aspetto numerosi<br />
+<br />
+Claudio<br />
+<br />
+www.scuoladicanoa.it <br />
+<br/>
+				tel: 347 8298027<br/>
+				email: claudio@scuoladicanoa.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+
+
+
+				<!-- END  CONTENTS -->
+				</form>
+			</div>
+			</td>
+        	<td class="dxCol">
+				<!-- INIZIO MENU DX -->
+			<div id="menudx">
+			<ul>
+				<li class="submenu_selected_U"><a href="/news/calendario.phtml">Calendario</a></li>
+				<li class="menu"><a href="/news/rss.phtml">Consulta i Forum (rss)</a></li>
+			</ul>
+			</div>
+			<div class="textWel">
+		 	 <a href="/registra.phtml">Diventa anche tu un editore!</a>
+		  	</div>	
+			<div class="textWel">
+			<p>E' a disposizione il calendario delle attività dei canoisti made in Italy<br/>
+			<br/>per inserire un appuntamento <a href="/news/calendario.phtml?ev_status=2">clicca qui</a>
+			</p>
+			</div>
+			<div class="textWel">
+			<p>TI RICORDIAMO CHE:<br/>
+			1- Prima di partire è buona norma telefonare agli organizzatori per chiedere
+			conferma dell' evento.<br/>
+			2- Consulta le news aggiornate sul <a href="/news/rss.phtml">forum di CKI</a> per le ultime novità
+			</p>
+			</div>
+			
+<!-- FINE MENU DX -->		
+			</td>
+      	</tr>
+    	</table>
+	</div>
+	<!-- END MAIN AREA -->
+		<!-- INIZIO FOOTER -->
+		<div id="footer">
+		      <p><a href="/">home</a> &#8226;  
+			  <a href="/fiume.phtml">fiumi</a> &#8226; 
+			  <a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+			  <a href="/help.phtml">come funziona</a>  &#8226;
+			  <a href="/gradi.phtml">I gradi WW</a> &#8226; 
+			  <a href="/contatto.phtml">scrivici</a> &#8226; 
+			  <a href="/profilo.phtml/dani">webmaster</a>  
+			  </p>
+				<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o 
+			pubblicazione  anche parziale per fini commerciali<br/>
+			</p>
+
+		</div>
+	</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-666569-2";
+urchinTracker();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

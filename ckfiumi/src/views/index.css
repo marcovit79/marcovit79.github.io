@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+#page {
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+
+#list {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 15%;
+    height: 100%;
+    overflow: scroll;
+}
+
+#data {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 15%;
+    height: 100%;
+    overflow-wrap: break-word;
+}
+
+
+#file_div {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    width: 70%;
+    height: 100%;
+}
+#file {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+

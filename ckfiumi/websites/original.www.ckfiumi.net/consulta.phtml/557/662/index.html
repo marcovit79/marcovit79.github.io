@@ -1,0 +1,326 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="iso-8859-1" />
+<title>Discesa in canoa | Ckfiumi.net </title>
+<meta name="rating" content="Safe For Kids" />
+<meta name="viewport" content="maximum-scale=1.2, width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" media="all" href="http://k2.ckfiumi.net/tcss/39/styles2.min.css" />
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<script type="text/javascript">
+function initialize() {
+	 var locations = [
+      ['Imbarco/Put In', 45.801366666667, 8.3446583333333, 1],
+      ['Sbarco/Take Off', 45.804877777778, 8.3764888888889, 2]
+    ];
+	var myOptions = {
+		center: new google.maps.LatLng((45.801366666667+45.804877777778)/2, (8.3446583333333+8.3764888888889)/2),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+   };
+   var map = new google.maps.Map(document.getElementById("map"),myOptions);
+
+	var infowindow = new google.maps.InfoWindow();
+   var marker, i;
+
+   for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+   }
+}
+function loadScript() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCwovf7SW04dMtSIftHEgxPTRkYI42Ejyg&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+</head>
+<body>
+
+<div id="headerwrap">
+  <header id="mainheader" class="bodywidth"><a href="/"><img src="http://k2.ckfiumi.net/img/logo-ckfiumi.png" alt="CKfiumi.net" class="logo" /></a>
+    <div id="websitetitle">
+      <h1><span class="bold">Canoa</span> &  Kayak</h1>
+      <h2>la comunit&agrave; virtuale dei canoisti italiani</h2>
+    </div>
+    <div class="div_mainheader">
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+      <!-- BEGIN tpl_login -->
+		  <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/login.phtml" title="Login">Editori</a></li>
+		  <li><a href="/contatto.phtml" title="Contattatci">Contattaci</a></li>
+      <!-- END tpl_login -->
+      
+      </ul>
+    </div>
+  </header>
+</div>
+
+<div id="maincontent" class="bodywidth">
+	<h1><span class="label_B">fiume  Pellino:Madonna del Sasso, Fraz. Artò,  Alpe Lauger - Strada. Reg. Pella - Cesara</span></h1><br />
+	<div id="aboutleft" class="fiume">
+		<!-- START XSL HERE -->
+<div class="rapp-contatiner"><div>
+	regione Piemonte
+	(VB)
+	</div><div><br/></div><div><div class="box_head">Una piccola perla di carattere, che scorre in magnifici boschi di castagni, intervallando tratti con rapide e corrente veloce a golette con salti e scivoli.</div><br/><ul class="clean box resourceList"><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">aggiornato al</div><div class="rscTblListItemDx">2011-11-10</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">grado</div><div class="rscTblListItemDx"><span class="grado IV">IV</span><span class="grado IVp">IV+</span><span class="grado V">(V)</span></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">distanza</div><div class="rscTblListItemDx">3 Km
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">tempo previsto</div><div class="rscTblListItemDx">3 Ore
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">pendenza</div><div class="rscTblListItemDx">80 m/Km
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle WildWater</div><div class="rscTblListItemDx"><img src="/img/4_stellaww.gif" alt="4_stellaww.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">portata</div><div class="rscTblListItemDx">10 mc/sec
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle paesaggio</div><div class="rscTblListItemDx"><img src="/img/5_stella.gif" alt="5_stella.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">temperatura acqua</div><div class="rscTblListItemDx">fresca</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">qualita' acqua</div><div class="rscTblListItemDx">ottima</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">periodo migliore</div><div class="rscTblListItemDx">autunno, inverno, primavera</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">livello</div><div class="rscTblListItemDx">&nbsp;</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">fiumi vicini</div><div class="rscTblListItemDx">Strona, Agogna, Pescone, Fiumetta, Sesia</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">imbarcazioni</div><div class="rscTblListItemDx">Kayak  | 
+	</div></div></li></ul><br/><div class="tbl_print"><div class="label_titolo">imbarco</div><div>Da S. Maurizio d'Opaglio salire verso Centonara, Artò e proseguire seguendo l'indicazione per la frazione Lauger.<br/>Ci si imbarca in corrispondenza del ponticello sul torrente Lauger, affluente di dx del Pellino<br/>GPS: &nbsp;Lat.45&deg;&nbsp;48'&nbsp;04.92"&nbsp;N&nbsp;&nbsp;Long.8&deg;&nbsp;20'&nbsp;40.77"&nbsp;E&nbsp;</div><div class="label_titolo">sbarco</div><div>Da S. Maurizio d'Opaglio seguite la strada verso Cesara e Omegna. Superato il ponte sul Pellino, procedete fino a quando trovate una piccola centrale elettrica sulla sinistra. Qui lasciate l'auto. Lo sbarco si fa in corrispondenza dello sbarramento della presa d'acqua della centralina, in riva sinistra, e si raggiunge l'auto in 10 minuti a piedi.<br/>GPS: &nbsp;Lat.45&deg;&nbsp;48'&nbsp;17.56"&nbsp;N&nbsp;&nbsp;Long.8&deg;&nbsp;22'&nbsp;35.36"&nbsp;E&nbsp;</div><div class="label_titolo">mappa</div><div id="map" class="mappa">&nbsp;</div><div class="label_titolo">assistenza da riva</div><div>sempre possibile.</div><div class="label_titolo">attenzione</div><div>Poco dopo l'imbarco incontrate una passerella pedonale: attenzione! Salto pericoloso subito sotto!!<br/>Possibili tronchi d'albero un po' ovunque.</div></div><br/><div class="tbl_print"><div class="label_titolo">siti web con foto</div><div><a href="http://www.youtube.com/watch?v=Ptas2Qa4Mmw&amp;feature=feedu&#10;(video)" rel="nofollow">http://www.youtube.com/watch?v=Ptas2Qa4Mmw&amp;feature=feedu
+(video)</a><br/></div><div class="label_titolo">idrometro</div><div>Non esistono idrometri. Si fa solo quando gli altri torrenti sono imballati.</div></div><br/><div class="label_titolo">descrizione</div><div>Nasce sullo spartiacque tra la Valsesia ed il Cusio. Scorre pimpante in splendidi boschi di castagni, lontano da case e strade. Ogni tanto qualche breve goletta lo costringe a salti e scivoli, per poi riprendere il suo brioso corso verso il Lago d’Orta. <br/>Le strade sono lontane, ma un sentiero di fianco alla riva lungo l’intero corso infonde sicurezza in caso di necessità.<br/><br/>Carattere continuo, acqua limpida, qualche tronco di traverso, soprattutto nella parte finale.  <br/>Ci si imbarca su un affluente del Pellino, il Lauger. Ma riserva già emozioni forti: un ponticello pedonale in legno preannuncia il primo passaggione da ispezionare: un saltone di 5 metri, un po’ troppo a fil di roccia sul lato sinistro, che finisce in una pozza con correntone controroccia. Rischio di urtare la roccia e di nicchia nel catino ricettivo. (Salto del Bat - WW5°). Trasbordo e sicura agevole.<br/>Dopo Km c’è la confluenza col Pellino, poi una altro bel salto sui 3 metri. Va preso a sinistra, ma il fiume porta a destra. <br/><br/>Poco più avanti inizia una bella goletta, a circa metà trovate un altro salto sui 5 metri. L’imbocco è un po’ complicato, ma il salto va via bello diritto e sotto non c’è ritorno. Per il primo la sicura non è possibile. Il trasbordo sì, ma molto complicato. (Salto della retromarcia - WW 5)<br/><br/>La goletta si conclude con 2 scivoli in stile Gardaland, il primo sui 3 metri, il secondo più basso e meno ripido, divertenti ed innocui.<br/>Nell’ultimo tratto il carattere del torrente e l’ambiente restano bellissimi, ma si cominciano a trovare un po’ di tronchi che obbligano a qualche trasbordo.<br/>Allo sbarco si scende in riva sinistra, in corrispondenza di uno sbarramento con presa d’acqua, dove un comodo sentiero porta in 10 minuti alla strada asfaltata.<br/><br/>Una raccomandazione: per farlo ci vuole tanta acqua. Direi un’ottima opzione in zona Novara – VCO in caso di fiumi imballati in giro.<br/><br/><br/><br/>Credits:<br/>-	Scoperta ed esplorazioni: Alberto Bianchi<br/>-	Discesa in prima: Alberto Bianchi, Anselmo Braga, Stefano Caprile, Marco Ceriotti, Battista Baglione il 6/11/11<br/><br/>6/11/11 NOTA: volendo continuare si incontra un salto sugli 8 m appena dopo la presa d'acqua, stretto tra roccia, a seguire, nella goletta successiva, due salti non assicurabili, il secondo molto alto ed un terzo salto impraticabile dove è obbligatorio piazzare una corda a dx per trasbordare prima di scendere in canoa (sennò restate bloccati lì per il resto dei vostri giorni). Tutta la goletta è visibile da un sentiero in sponda dx, passata la gola altri 500 m e si raggiunge la strada.</div></div><div><div class="spazio">&nbsp;</div><div>Hanno contribuito a questo report:</div><div><a href="/profilo.phtml/albe61turbigo">albe61turbigo</a>&nbsp;<a href="/profilo.phtml/stefano">stefano</a>&nbsp;</div><div class="spazio">&nbsp;</div></div></div>
+<!-- END XSL HERE --><p style="text-align:right"> <script type="text/javascript">
+			function image() {  
+				window.open("/consulta.phtml/557/662/printable","image","toolbar=no,width=620,height=400,status=no,scrollbars=yes,resizable=no,menubar=no");
+			}
+         </script>
+		<a href="/consulta.phtml/557/662/printable" onclick="image(); return false;">Stampa</a>
+		<a href="/consulta.phtml/557/662/printable" onclick="image(); return false;">
+		<img src="/img/print.gif" alt="printable" style="border:0px" /></a>
+          </p>
+	</div>
+	<section id="articlesright">
+<!-- INIZIO MENU DX -->
+         <ul class="menu">
+            <li class="menu_sel"><a href="/fiume.phtml">Fiumi</a></li>
+            <li class="menu"><a href="/idrometri/">Livelli Idrometri</a></li>
+            <li class="menu"><a href="/ricerca.phtml">Ricerca Fiume</a></li>
+            <li class="menu"><a href="/gradi.phtml">La scala dei gradi WW</a></li>
+            <li class="menu"><a href="/segnali-di-sicurezza-in-kayak.phtml">I Segnali in fiume</a></li>
+         </ul>
+         <div class="usrListAlfabetica">
+         <fieldset><legend>ricerca fiumi</legend>
+         	<form id="cercaFiume" method="get" action="/fiume.phtml">
+	<div>
+		<input type="hidden" value="{ListaAlfabetica::lettera}" name="letter"/>
+		<select class="mselect" name="nazione"  onchange="document.getElementById('cercaFiume').submit()">
+			
+				<option value="IT"  selected="selected">Italia</option>
+			
+				<option value="A" >Austria</option>
+			
+				<option value="BAL" >Balcani</option>
+			
+				<option value="FR" >Francia</option>
+			
+				<option value="GR" >Grecia</option>
+			
+				<option value="NOR" >Norvegia</option>
+			
+				<option value="SLO" >Slovenia</option>
+			
+				<option value="ES" >Spagna</option>
+			
+				<option value="CH" >Svizzera</option>
+			
+		</select>
+	</div> 
+<!-- inizio listaAlfabetica -->
+	<div class="tbl width-90">
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/A"><b>A</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/B"><b>B</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/C"><b>C</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/D"><b>D</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/E"><b>E</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/F"><b>F</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/G"><b>G</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/H"><b>H</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/I"><b>I</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/J"><b>J</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/K"><b>K</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/L"><b>L</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/M"><b>M</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/N"><b>N</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/O"><b>O</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/P"><b>P</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Q"><b>Q</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/R"><b>R</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/S"><b>S</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/T"><b>T</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/U"><b>U</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/V"><b>V</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/W"><b>W</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/X"><b>X</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Y"><b>Y</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Z"><b>Z</b></a></div>
+
+        
+    </div>
+	
+</div>
+
+<br />
+<!-- fine listaAlfabetica -->
+	
+	</form>
+	
+
+
+
+         </fieldset>
+         <fieldset><legend>fiumi per regione</legend>
+         <form id="FiumiPerRegioni" method="get" action="/fiume.phtml">
+	<div >
+		<select class="mselect" name="regione" onchange="document.getElementById('FiumiPerRegioni').submit()">
+			<option value="">-- seleziona --</option>
+			
+				<option value="1" >Abruzzo</option>
+			
+				<option value="2" >Basilicata</option>
+			
+				<option value="3" >Calabria</option>
+			
+				<option value="4" >Campania</option>
+			
+				<option value="5" >Emilia Romagna</option>
+			
+				<option value="6" >Friuli Venezia Giulia</option>
+			
+				<option value="7" >Lazio</option>
+			
+				<option value="8" >Liguria</option>
+			
+				<option value="9" >Lombardia</option>
+			
+				<option value="10" >Marche</option>
+			
+				<option value="11" >Molise</option>
+			
+				<option value="12" >Piemonte</option>
+			
+				<option value="13" >Puglia</option>
+			
+				<option value="14" >Sardegna</option>
+			
+				<option value="15" >Sicilia</option>
+			
+				<option value="16" >Toscana</option>
+			
+				<option value="17" >Trentino Alto Adige</option>
+			
+				<option value="18" >Umbria</option>
+			
+				<option value="19" >Val d'Aosta</option>
+			
+				<option value="20" >Veneto</option>
+			
+		</select>
+	</div> 
+</form>
+	
+	
+
+         </fieldset>
+         </div>
+         <div class="textWel">
+         <p>TI RICORDIAMO CHE:<br/>
+         1- I fiumi vanno discesi con  attrezzature e abbigliamento  adatto al tipo di percorso
+         affrontato.<br/>
+         2- Per discendere i fiumi bisogna frequentare dei corsi di canoa tenuti da
+         personale qualificato.<br/>
+         3- I principianti durante le discese devono essere affiancati e consigliati
+         da guide esperte.<br/>
+         4- Una discesa non si effettua mai in solitaria, il numero minimo dei partecipanti può variare
+         a seconda della preparazione dei canoisti e delle difficoltà che si possono incontrare.
+         </p>
+         </div>
+
+<!-- FINE MENU DX -->
+	</section>
+</div>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<div id="footerwrap">
+  <footer id="mainfooter" class="bodywidth">
+    <div>
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/sitemap.phtml" title="Sitemap">Sitemap</a></li>
+        <li><a href="/contatto.phtml" title="Contact Us">Contattaci</a></li>
+      </ul>
+    </div>
+    <p class="copyright">Copyright &copy; 2006-2014. All rights reserved<!--Valid <a href="http://validator.w3.org/check?uri=referer&&charset=iso-8859-1&doctype=HTML5&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices" title="HTML5">HTML5</a>-->.</p>
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://k2.ckfiumi.net/tjs/39/jquery-ui-1.10.3.custom.min.js" ></script>
+<script src="http://k.ckfiumi.net/tjs/39/call/?q=new;index" ></script>
+</body>
+</html>
+
+
+

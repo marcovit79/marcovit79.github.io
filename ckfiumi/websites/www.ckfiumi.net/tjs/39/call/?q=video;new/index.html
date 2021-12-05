@@ -1,0 +1,78 @@
+ $(document).ready(function() {
+    $( document ).on( "click", "#btnAddVideosubmit", function(e) {
+		e.preventDefault();
+		var qs= $("#frmVideo").serialize();
+		$('#li_submit').addClass("loading");
+		$('#btnAddVideosubmit').attr('disabled', 'disabled');
+		$.ajax({
+			type:'POST',
+			url: "/videoadd?"+qs,
+			dataType: "html",
+			success: 	function(m){
+							$('#videoadd').html('');
+							$('#videoadd').html(m);
+							$('#li_submit').removeClass("loading");
+							$('#btnAddVideosubmit').removeAttr('disabled', 'disabled');
+			},
+			error: function(){
+				alert("errore di connesione. Riprova ...");
+			}
+		})
+	}); 
+	$(".video").click(function (event) { 
+	   event.preventDefault();
+		//CK.putAt($(this),0);
+		var parent = $(this).parent();
+        vshow(parent);
+	});
+	var w = parseInt($(window).width());
+	if( w < 1025 && w> 769 ){
+         $('.fb-comments').css('left', -(w/6) +'px');
+     }
+     if( w < 769 && w> 481 ){
+         $('.fb-comments').css('left', -(w/5) +'px');
+     }
+    if( w < 481 && w > 321 ){
+         $('.fb-comments').css('left', -(w/3) +'px');
+     } 
+    if( w < 321  ){
+         $('.fb-comments').css('left', -(w/2) +'px');
+     } 
+    function vshow(mli){
+        $('#skel').remove();
+        if (mli.hasClass('down')){
+            mli.removeClass('down');
+        }else{	
+            var id = mli.attr('id').substring(2);
+            CK.putAt($('#v_'+id),-40);
+            $('.down').removeClass('down');
+            mli.append('<div id="skel">loading...</div>');	
+            mli.addClass('down');
+            $('#skel').addClass('loading2');
+            $('#skel').load("/video.phtml?c=x&id="+id, function(data) {
+                FB.XFBML.parse(); 
+                $('#skel').removeClass('loading2');
+            });
+        }	
+    }
+    if ($('#found').val() == '1') {
+        vshow($("li.list_up").first()) ;
+    }
+     
+});
+
+(function() {
+	window.CK = window.CK || {};
+	CK.domain_img='//www.ckfiumi.net';
+   CK.putAt = function (ele, pos){
+   		window.scrollTo(1,ele.offset().top + parseInt(pos));	
+	};
+	CK.updCounter = function(eleWatched,maxlen){
+		maxlen = parseInt(maxlen);
+		var counter = eleWatched.val().length;
+   	console.log("len:" + counter);
+     	$("#count").html(counter);
+     	$("#countdiff").html(maxlen-counter);
+		((counter > maxlen)? $('#textlong').show():$('#textlong').hide() );
+	};
+}).call(this);

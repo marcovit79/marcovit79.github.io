@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Cerca per grado e distanza
+    </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="leaflet.awesome-markers.css">
+    <script src="leaflet.awesome-markers.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Applicazione -->
+    <link rel="stylesheet" href="main.css" />
+    <script src="RiverData.js"></script>
+    <script src="SegmentListView.js"></script>
+    <script src="MapView.js"></script>
+    
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="searchDiv">
+      <form>
+        <div class="form-row">
+          
+          <div class="form-group col-md-2">
+            <label for="regione">Regione</label>
+            <select id="regione" class="form-control">
+              <option selected value="">Tutte</option>
+              <option value="Abruzzo">Abruzzo</option>
+              <option value="Austria Nord">Austria Nord</option>
+              <option value="Austria Sud">Austria Sud</option>
+              <option value="Basilicata">Basilicata</option>
+              <option value="Calabria">Calabria</option>
+              <option value="Campania">Campania</option>
+              <option value="Catalunya">Catalunya</option>
+              <option value="Corsica">Corsica</option>
+              <option value="Emilia Romagna">Emilia Romagna</option>
+              <option value="Epiro">Epiro</option>
+              <option value="Friuli Venezia Giulia">Friuli Venezia Giulia</option>
+              <option value="Lazio">Lazio</option>
+              <option value="Liguria">Liguria</option>
+              <option value="Lombardia">Lombardia</option>
+              <option value="Marche">Marche</option>
+              <option value="Midi-Pyrénées">Midi-Pyrénées</option>
+              <option value="Molise">Molise</option>
+              <option value="Montenegro">Montenegro</option>
+              <option value="Norvegia Sud">Norvegia Sud</option>
+              <option value="Piemonte">Piemonte</option>
+              <option value="Provence Alpes">Provence Alpes</option>
+              <option value="Rhône-Alpes">Rhône-Alpes</option>
+              <option value="Sardegna">Sardegna</option>
+              <option value="Serbia">Serbia</option>
+              <option value="Sicilia">Sicilia</option>
+              <option value="Slovenia">Slovenia</option>
+              <option value="Svizzera Est">Svizzera Est</option>
+              <option value="Svizzera Sud">Svizzera Sud</option>
+              <option value="Toscana">Toscana</option>
+              <option value="Trentino Alto Adige">Trentino Alto Adige</option>
+              <option value="Umbria">Umbria</option>
+              <option value="Val d'Aosta">Val d'Aosta</option>
+              <option value="Veneto">Veneto</option>
+            </select>
+          </div>
+          
+          <div class="form-group col-md-1">
+            <label for="lvl_min">Livello Minimo</label>
+            <select id="lvl_min" class="form-control">
+              <option selected value="1">I</option>
+              <option value="1.5">I+</option>
+              <option value="2">II</option>
+              <option value="2.5">II+</option>
+              <option value="3">III</option>
+              <option value="3.5">III+</option>
+              <option value="4">IV</option>
+              <option value="4.5">IV+</option>
+              <option value="5">V</option>
+              <option value="5.5">V+</option>
+              <option value="6">VI</option>
+              <option value="6.5">VI+</option>
+              <option value="7">VII</option>      
+            </select>
+          </div>
+          <div class="form-group col-md-1">
+            <label for="lvl_max">Livello Massimo</label>
+            <select id="lvl_max" class="form-control">
+              <option value="1">I</option>
+              <option value="1.5">I+</option>
+              <option value="2">II</option>
+              <option value="2.5">II+</option>
+              <option value="3">III</option>
+              <option value="3.5">III+</option>
+              <option value="4">IV</option>
+              <option value="4.5">IV+</option>
+              <option value="5">V</option>
+              <option value="5.5">V+</option>
+              <option value="6">VI</option>
+              <option value="6.5">VI+</option>
+              <option selected value="7">VII</option>      
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <div id="map"></div>
+
+    <div id="list_wrapper">
+      <div id="list"></div>
+    </div>
+    
+    <div id="details">
+      
+    </div>
+
+  </body>
+</html>

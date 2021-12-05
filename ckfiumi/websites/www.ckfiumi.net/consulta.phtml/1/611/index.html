@@ -1,0 +1,326 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="iso-8859-1" />
+<title>Discesa in canoa | Ckfiumi.net </title>
+<meta name="rating" content="Safe For Kids" />
+<meta name="viewport" content="maximum-scale=1.2, width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" media="all" href="http://k2.ckfiumi.net/tcss/39/styles2.min.css" />
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<script type="text/javascript">
+function initialize() {
+	 var locations = [
+      ['Imbarco/Put In', {Page_i_lat_sess}, {Page_i_lon_sess}, 1],
+      ['Sbarco/Take Off', {Page_s_lat_sess}, {Page_s_lon_sess}, 2]
+    ];
+	var myOptions = {
+		center: new google.maps.LatLng(({Page_i_lat_sess}+{Page_s_lat_sess})/2, ({Page_i_lon_sess}+{Page_s_lon_sess})/2),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+   };
+   var map = new google.maps.Map(document.getElementById("map"),myOptions);
+
+	var infowindow = new google.maps.InfoWindow();
+   var marker, i;
+
+   for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+   }
+}
+function loadScript() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCwovf7SW04dMtSIftHEgxPTRkYI42Ejyg&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+</head>
+<body>
+
+<div id="headerwrap">
+  <header id="mainheader" class="bodywidth"><a href="/"><img src="http://k2.ckfiumi.net/img/logo-ckfiumi.png" alt="CKfiumi.net" class="logo" /></a>
+    <div id="websitetitle">
+      <h1><span class="bold">Canoa</span> &  Kayak</h1>
+      <h2>la comunit&agrave; virtuale dei canoisti italiani</h2>
+    </div>
+    <div class="div_mainheader">
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+      <!-- BEGIN tpl_login -->
+		  <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/login.phtml" title="Login">Editori</a></li>
+		  <li><a href="/contatto.phtml" title="Contattatci">Contattaci</a></li>
+      <!-- END tpl_login -->
+      
+      </ul>
+    </div>
+  </header>
+</div>
+
+<div id="maincontent" class="bodywidth">
+	<h1><span class="label_B">fiume  Sesia:Bornate - Romagnano Sesia</span></h1><br />
+	<div id="aboutleft" class="fiume">
+		<!-- START XSL HERE -->
+<div class="rapp-contatiner"><div>
+	regione Piemonte
+	(NO)
+	</div><div><br/></div><div><div class="box_head">Tratto semplice adatto per fare scuola ai corsisti oppure come alternativa nel caso in cui i tratti superiori del Sesia abbiano livelli alti. In questo caso, alcune rapide possono divenire di III grado.</div><br/><ul class="clean box resourceList"><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">aggiornato al</div><div class="rscTblListItemDx">2010-06-01</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">grado</div><div class="rscTblListItemDx"><span class="grado IIp">II+</span></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">distanza</div><div class="rscTblListItemDx">9 Km
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">tempo previsto</div><div class="rscTblListItemDx">2 Ore
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">pendenza</div><div class="rscTblListItemDx">&nbsp;</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle WildWater</div><div class="rscTblListItemDx"><img src="/img/1_stellaww.gif" alt="1_stellaww.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">portata</div><div class="rscTblListItemDx">&nbsp;A</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle paesaggio</div><div class="rscTblListItemDx"><img src="/img/2_stella.gif" alt="2_stella.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">temperatura acqua</div><div class="rscTblListItemDx">fredda</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">qualita' acqua</div><div class="rscTblListItemDx">buona</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">periodo migliore</div><div class="rscTblListItemDx">quando i tratti superiori hanno dei bei livelli</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">livello</div><div class="rscTblListItemDx">&nbsp;</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">fiumi vicini</div><div class="rscTblListItemDx">Sessera,tratti classici del Sesia</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">imbarcazioni</div><div class="rscTblListItemDx">Kayak  | 
+	Canoa  | 
+	Sit On Top  | 
+	Hot Dog  | 
+	</div></div></li></ul><br/><div class="tbl_print"><div class="label_titolo">imbarco</div><div>SULLA RIVA DESTRA DEL SESSERA BASSISSIMO APPENA DOPO IL POCO PRIMA DEL PONTE TRA BORNATE E BORGOSESIA (VENENDO DA ROMAGNANO), IMBARCO DIETRO SUPERMERCATO PRESTOFRESCO<br/>GPS: &nbsp;Lat.45&deg;&nbsp;41'&nbsp;59"&nbsp;N&nbsp;&nbsp;Long.8&deg;&nbsp;17'&nbsp;17"&nbsp;E&nbsp;</div><div class="label_titolo">sbarco</div><div>PRIMA DELLO SBARRAMENTO DI ROMAGNANO SESIA RIVA DESTRA LUNGO LA VIA SAN LORENZO/SP 165 ALLALTEZZA DEL CARTELLO PUBBLICITARIO DELLOBI<br/></div><div class="label_titolo">mappa</div><div id="map" class="mappa">&nbsp;</div><div class="label_titolo">assistenza da riva</div><div>sempre possibile</div><div class="label_titolo">attenzione</div><div>Trasbordo obbligatorio di un artificiale di circa 4 metri che si trova a 2,5 Km dall'imbarco</div></div><br/><div class="tbl_print"><div class="label_titolo">siti web con foto</div><div><a href="http://www.canoamartesana.it/galleria.asp?act=foto&amp;idgalleria=355 " rel="nofollow">http://www.canoamartesana.it/galleria.asp?act=foto&amp;idgalleria=355 </a><br/></div><div class="label_titolo">idrometro</div><div>&nbsp;</div></div><br/><div class="label_titolo">descrizione</div><div>imbarco<br/><img src="http://www.canoamartesana.it/public/documenti/sesia-bornate-imbarco.jpg" style="border:0px;width:400px;" alt=""/> <br/><br/>Il primo parte della discesa si svolge sul Sessera bassissimo con rapide lievi, mettere in conto di raschiare da qualche parte con livelli dacqua medio-bassi. Dopo circa un km dallimbarco il Sessera si getta nel Sesia. Da qui in poi si susseguono rapide e tratti piatti, nessun pericolo da segnalare. La rapide sono percorribili a vista.<br/>Dopo un paio di km, si passa sotto un ponte, da qui segue un tratto rettilineo del Sesia al termine del quale il fiume allarga: si consiglia di portarsi il più a destra possibile prima di affrontare la rapida poiché sul lato sinistro ci sono della artificiali sporche. Poco dopo questo punto si giunge allartificiale di pietroni levigati di 4 metri (preceduta da un piattone) che deve essere trasbordata sulla riva destra camminando sulla sponda tra le piante (non tentare di discenderla perché decisamente viscida e quasi verticale).<br/><br/>Artificiale<br/><img src="http://www.canoamartesana.it/public/documenti/sesia-bornate-romagnano-trasbordo.jpg" style="border:0px;width:400px;" alt=""/> <br/><br/>La discesa prosegue con rapide di II grado e lagoni. Appena passato il ponte stradale tra Prato Sesia e Serravalle, prendere il ramo di destra che forma una bella rapida. In fondo alla rapida si forma uno spot ottimo per fare scuola o divertirsi con traghetti. Appena dopo lo spot segue una rapida (rapida della capella) inizialmente rettilinea che poi curva tutta a sinistra terminando presso una cappelletta: si consiglia di tagliarla a sinistra o comunque di restare  sempre centrali in quanto sul lato destro, a ridosso della sponda rocciosa (di rocce rosse), si forma un buchetto che potrebbe tenere e non è raggiungibile dalle corde da lancio. <br/>Dopo un tratto tranquillo, si giunge ad una rapida molto ampia che termina in un controroccia non problematico. Poco avanti si incrocia la corrente di un affluente sinistro del Sesia, si forma un bello spot per fare esercizi. Segue una rapida divertente che termina in mezzo a dei massoni. Da qui si pagaia per circa 500 metri in un piattone in fondo al quale si giunge però ad una rapida di circa 150 metri con una buona pendenza rispetto alle precedenti. Essa segna la fine della discesa, poco avanti troviamo lo sbarco. Impossibile proseguire oltre per via dellartificiale di Romagnano Sesia.<br/>Per lo sbarco prendere come riferimento il ponte stradale di Romagnano Sesia che si vede in lontananza (e deve rimanere tale) ed una specie di capannone di ferro posto sulla riva destra, sbarcate 200-300 metri prima di questultimo. Si consideri che dalla confluenza in poi non ci sono altre costruzioni sulla riva destra del Sesia.<br/><br/>Sbarco<br/><img src="http://www.canoamartesana.it/public/documenti/sesia-romagnano-sbarco.jpg" style="border:0px;width:400px;" alt=""/><br/><br/>Sbarco strada<br/><img src="http://www.canoamartesana.it/public/documenti/sesia-romagnano-sbarcostrada.jpg" style="border:0px;width:400px;" alt=""/></div></div><div><div class="spazio">&nbsp;</div><div>Hanno contribuito a questo report:</div><div><a href="/profilo.phtml/GP">GP</a>&nbsp;</div><div class="spazio">&nbsp;</div></div></div>
+<!-- END XSL HERE --><p style="text-align:right"> <script type="text/javascript">
+			function image() {  
+				window.open("/consulta.phtml/1/611/printable","image","toolbar=no,width=620,height=400,status=no,scrollbars=yes,resizable=no,menubar=no");
+			}
+         </script>
+		<a href="/consulta.phtml/1/611/printable" onclick="image(); return false;">Stampa</a>
+		<a href="/consulta.phtml/1/611/printable" onclick="image(); return false;">
+		<img src="/img/print.gif" alt="printable" style="border:0px" /></a>
+          </p>
+	</div>
+	<section id="articlesright">
+<!-- INIZIO MENU DX -->
+         <ul class="menu">
+            <li class="menu_sel"><a href="/fiume.phtml">Fiumi</a></li>
+            <li class="menu"><a href="/idrometri/">Livelli Idrometri</a></li>
+            <li class="menu"><a href="/ricerca.phtml">Ricerca Fiume</a></li>
+            <li class="menu"><a href="/gradi.phtml">La scala dei gradi WW</a></li>
+            <li class="menu"><a href="/segnali-di-sicurezza-in-kayak.phtml">I Segnali in fiume</a></li>
+         </ul>
+         <div class="usrListAlfabetica">
+         <fieldset><legend>ricerca fiumi</legend>
+         	<form id="cercaFiume" method="get" action="/fiume.phtml">
+	<div>
+		<input type="hidden" value="{ListaAlfabetica::lettera}" name="letter"/>
+		<select class="mselect" name="nazione"  onchange="document.getElementById('cercaFiume').submit()">
+			
+				<option value="IT"  selected="selected">Italia</option>
+			
+				<option value="A" >Austria</option>
+			
+				<option value="BAL" >Balcani</option>
+			
+				<option value="FR" >Francia</option>
+			
+				<option value="GR" >Grecia</option>
+			
+				<option value="NOR" >Norvegia</option>
+			
+				<option value="SLO" >Slovenia</option>
+			
+				<option value="ES" >Spagna</option>
+			
+				<option value="CH" >Svizzera</option>
+			
+		</select>
+	</div> 
+<!-- inizio listaAlfabetica -->
+	<div class="tbl width-90">
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/A"><b>A</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/B"><b>B</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/C"><b>C</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/D"><b>D</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/E"><b>E</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/F"><b>F</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/G"><b>G</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/H"><b>H</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/I"><b>I</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/J"><b>J</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/K"><b>K</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/L"><b>L</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/M"><b>M</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/N"><b>N</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/O"><b>O</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/P"><b>P</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Q"><b>Q</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/R"><b>R</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/S"><b>S</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/T"><b>T</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/U"><b>U</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/V"><b>V</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/W"><b>W</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/X"><b>X</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Y"><b>Y</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Z"><b>Z</b></a></div>
+
+        
+    </div>
+	
+</div>
+
+<br />
+<!-- fine listaAlfabetica -->
+	
+	</form>
+	
+
+
+
+         </fieldset>
+         <fieldset><legend>fiumi per regione</legend>
+         <form id="FiumiPerRegioni" method="get" action="/fiume.phtml">
+	<div >
+		<select class="mselect" name="regione" onchange="document.getElementById('FiumiPerRegioni').submit()">
+			<option value="">-- seleziona --</option>
+			
+				<option value="1" >Abruzzo</option>
+			
+				<option value="2" >Basilicata</option>
+			
+				<option value="3" >Calabria</option>
+			
+				<option value="4" >Campania</option>
+			
+				<option value="5" >Emilia Romagna</option>
+			
+				<option value="6" >Friuli Venezia Giulia</option>
+			
+				<option value="7" >Lazio</option>
+			
+				<option value="8" >Liguria</option>
+			
+				<option value="9" >Lombardia</option>
+			
+				<option value="10" >Marche</option>
+			
+				<option value="11" >Molise</option>
+			
+				<option value="12" >Piemonte</option>
+			
+				<option value="13" >Puglia</option>
+			
+				<option value="14" >Sardegna</option>
+			
+				<option value="15" >Sicilia</option>
+			
+				<option value="16" >Toscana</option>
+			
+				<option value="17" >Trentino Alto Adige</option>
+			
+				<option value="18" >Umbria</option>
+			
+				<option value="19" >Val d'Aosta</option>
+			
+				<option value="20" >Veneto</option>
+			
+		</select>
+	</div> 
+</form>
+	
+	
+
+         </fieldset>
+         </div>
+         <div class="textWel">
+         <p>TI RICORDIAMO CHE:<br/>
+         1- I fiumi vanno discesi con  attrezzature e abbigliamento  adatto al tipo di percorso
+         affrontato.<br/>
+         2- Per discendere i fiumi bisogna frequentare dei corsi di canoa tenuti da
+         personale qualificato.<br/>
+         3- I principianti durante le discese devono essere affiancati e consigliati
+         da guide esperte.<br/>
+         4- Una discesa non si effettua mai in solitaria, il numero minimo dei partecipanti può variare
+         a seconda della preparazione dei canoisti e delle difficoltà che si possono incontrare.
+         </p>
+         </div>
+
+<!-- FINE MENU DX -->
+	</section>
+</div>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<div id="footerwrap">
+  <footer id="mainfooter" class="bodywidth">
+    <div>
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/sitemap.phtml" title="Sitemap">Sitemap</a></li>
+        <li><a href="/contatto.phtml" title="Contact Us">Contattaci</a></li>
+      </ul>
+    </div>
+    <p class="copyright">Copyright &copy; 2006-2014. All rights reserved<!--Valid <a href="http://validator.w3.org/check?uri=referer&&charset=iso-8859-1&doctype=HTML5&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices" title="HTML5">HTML5</a>-->.</p>
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://k2.ckfiumi.net/tjs/39/jquery-ui-1.10.3.custom.min.js" ></script>
+<script src="http://k.ckfiumi.net/tjs/39/call/?q=new;index" ></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,584 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ckfiumi :: Calendario appuntamenti uscite raduni e affini in canoa/kayak </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa," />
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..." />
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0=" />
+<link href="/css/defaults.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/dyna.js"></script>
+<script type="text/javascript" src="/js/p_switch.js"></script>	
+<script type="text/javascript" src="/js/net/ckfiumi/prototype.js"></script>
+<script type="text/javascript" src="/js/net/ckfiumi/text-utils.js"></script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+	<div id="header">
+<!--	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+-->	</div>
+	<div id="mainFront">
+	  	<img id="a" src="/img/header/26.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+	</div>
+    <div id="containerMenu"><div
+   		 id="menu_left"><img src="/img/sfondo_barra_sx.gif"  alt="" /></div><div
+		  id="menu_right"><img src="/img/sfondo_barra_dx.gif"  alt="" /></div><div
+		  id="menu_orizz">
+			<a  class="menu" href="/">Home</a> |
+			<a  class="menu" href="/fiume.phtml">Fiumi</a> |
+			<a  class="menu_selected_U" href="/news/calendario.phtml">Appuntamenti</a> |
+			<a  class="menu" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+			<a  class="menu" href="http://forum.ckfiumi.net">Forums CKI</a> |
+			<a  class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+			<a  class="menu" href="/contatto.phtml">Scrivici</a> |
+			<a  class="menu" href="/login.phtml">Login</a> |
+		</div>
+	</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->	
+
+
+
+	<!-- BEGIN MAIN AREA -->
+	<div id="main">
+		<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+      	<tr>
+        	<td class="sxCol">
+			<div id="elCont">
+				<div id="elCont_left" class="z_calendario"></div><div
+		  		id="elCont_right">Appuntamenti del mese</div>
+			</div>
+			<div id="sottoElCont">	
+				<form id="LOC" action="/news/calendario.phtml" method="post">
+				<!-- BEGIN  CONTENTS -->
+				
+<div style="float:left;margin-top:5px;margin-left:10px;border:1px solid #2E6287;text-align:center;width:330px;">
+		<table border="0"  cellspacing="2" style="text-align:center;width:330px" >
+			<tr>
+			<td align="right" valign="top" class="listchiara">
+			<select name="m">
+				
+				<option value="1" >Gennaio</option>
+				
+				<option value="2" >Febbraio</option>
+				
+				<option value="3" >Marzo</option>
+				
+				<option value="4" >Aprile</option>
+				
+				<option value="5" >Maggio</option>
+				
+				<option value="6" >Giugno</option>
+				
+				<option value="7"  selected="selected">Luglio</option>
+				
+				<option value="8" >Agosto</option>
+				
+				<option value="9" >Settembre</option>
+				
+				<option value="10" >Ottobre</option>
+				
+				<option value="11" >Novembre</option>
+				
+				<option value="12" >Dicembre</option>
+				
+			</select>
+			<select name="y">
+				
+				<option value="2006" >2006</option>
+				
+				<option value="2007" >2007</option>
+				
+				<option value="2008" >2008</option>
+				
+				<option value="2009" >2009</option>
+				
+				<option value="2010"  selected="selected">2010</option>
+				
+			</select>
+			<input  class="bottone"  type="submit" name="cerca" value="cerca" />
+			</td>
+			</tr>	
+		</table>
+		<table border="0" cellspacing="2" style="text-align:center;width:330px">	
+		<tr>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>D</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>L</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>G</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>V</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>S</b></td>
+			
+		</tr>
+ 		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287">&nbsp;</td>
+			<td style="border:1px solid #2E6287" >&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=1&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">1</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=2&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">2</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=3&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a3">3</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=4&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a4">4</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=5&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">5</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=6&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">6</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=7&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">7</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=8&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">8</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=9&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">9</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=10&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a10">10</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=11&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a10">11</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=12&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">12</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=13&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">13</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=14&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">14</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=15&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">15</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=16&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">16</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=17&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">17</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=18&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a18">18</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=19&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">19</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=20&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">20</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=21&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a11">21</a></td>
+			<td style="border:1px solid #2E6287" class="day">22</td>
+			<td style="border:1px solid #2E6287" class="day">23</td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=24&amp;m=7&amp;y=2010&amp;Dove=&amp;Tipo=&amp;Difficolta=#a24">24</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="Today" style="background-color:#c7c7c7;border:1px solid #2E6287">25</td>
+			<td style="border:1px solid #2E6287" >26</td>
+			<td style="border:1px solid #2E6287" class="day">27</td>
+			<td style="border:1px solid #2E6287" class="day">28</td>
+			<td style="border:1px solid #2E6287" class="day">29</td>
+			<td style="border:1px solid #2E6287" class="day">30</td>
+			<td style="border:1px solid #2E6287" class="day">31</td>
+		</tr> 
+		
+		</table>
+		
+		<div style="width:150px;margin-top:3px;margin-bottom:5px;padding-bottom:5px;border:1px solid #2E6287 ">
+			<a style="color:#2E6287;font-weight:bold;padding-left:10px;padding-right:10px;padding-bottom:2px;"   href="/news/calendario.phtml?ev_status=2">inserisci una data</a>
+		</div>
+</div>
+
+
+<div style="float:left;margin-left:30px;margin-top:22px;padding:4px;background-color:#EAEBEE;border:1px solid #CACAD2;">
+	tipo di appuntamento<br/>
+	<select class="sel_formRicercaEventi" name="Tipo">
+		<option value=""></option>
+		
+		<option value="Gara" >Gara</option>
+		
+		<option value="Raduno" >Raduno</option>
+		
+		<option value="Rodeo" >Rodeo</option>
+		
+		<option value="Serata Video" >Serata Video</option>
+		
+		<option value="Spedizione/Tour" >Spedizione/Tour</option>
+		
+		<option value="Uscita" >Uscita</option>
+		
+	</select><br/>
+	dove<br/>
+	<select class="sel_formRicercaEventi" name="Dove">
+		<option value=""></option>
+		
+		<option value="Acqua Bianca" >Acqua Bianca</option>
+		
+		<option value="Fiume" >Fiume</option>
+		
+		<option value="Lago" >Lago</option>
+		
+		<option value="Mare" >Mare</option>
+		
+		<option value="Piscina" >Piscina</option>
+		
+		<option value="Sala" >Sala</option>
+		
+		<option value="Spot" >Spot</option>
+		
+	</select><br/>
+	adatto per<br/>
+	<select class="sel_formRicercaEventi" name="Difficolta">
+		<option value=""></option>
+		
+		<option value="Tutti" >Tutti</option>
+		
+		<option value="Principianti" >Principianti</option>
+		
+		<option value="Intermedi" >Intermedi</option>
+		
+		<option value="Esperti" >Esperti</option>
+		
+	</select><br/>
+	<input style="margin-left:40px;"  class="bottone"  type="submit" name="go" value="cerca" />
+</div>
+<div style="height:240px">&nbsp;</div>
+<div style="color:red;font-weight:bold;margin-bottom:6px;margin-top:16px;text-align:center"> </div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a21" name="a21" class="">21/06/2010 21/07/2010 Raduno</a><br/> adatto a Principianti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Canoa Slalom nel cuore di Milano<br />
+<br />
+Vorremmo segnalare alla vs. attenzione la nostra manifestazione di promozione della canoa fluviale rivolta ai ragazzi principianti e non in programma sul naviglio Maggiore, come meglio indicato nel ns. sito (www.canoaclubmilano.it/index.php/pages/agonismo), abbiamo programmato una serie di incontri gratuiti rivolti a ragazzi principianti.<br />
+Il corso promozionale, denominato appunto Leva Canoistica Giovanile, è organizzato dalla sezione Agonistica del Canoa Club Milano, con il patrocinio e la collaborazione dei Navigli Lombardi S.c.a.r.l.<br />
+Il corso, tenuto da tecnici diplomati e da atleti di caratura nazionale del settore giovanile del Canoa Club Milano ed è organizzato presso il centro Sportivo di Alzaia Naviglio Grande n.34 Milano, M.M. P.ta Genova.<br/>
+				tel: 348.84.49.919 (Edoardo Prandin) 3396287903 (Mario Colella)<br/>
+				email: milanoslalom@gmail.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a3" name="a3" class="">03/07/2010 04/07/2010 </a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Nuove attrezzature sportive e per il tempo libero sono state realizzate e costituiranno il Polo canoistico di Cuneo, Le basse  nonsoloacqua, gestito dal Club Cuneo Canoa.<br />
+Linaugurazione dellarea si terrà sabato 3 luglio e con attività previste anche la domanica dalle 10.<br />
+www.lebasse.it<br />
+<br />
+<br />
+<br/>
+				tel: 3485903445<br/>
+				email: cuneocanoa@libero.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a4" name="a4" class="">04/07/2010 04/07/2010 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Perdòn di Barbana, Laguna di Grado<br />
+<br />
+Il CKF - Canoa Kayak Friuli organizza un'escursione in Laguna di Grado, seguendo la famosa processione religiosa; con ristoro. Adatta a tutti.<br />
+<br />
+Info: Fabio Carletti 340/5467279 - info@canoafriuli.com<br/>
+				tel: 340 5467279<br/>
+				email: info@canoafriuli.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a4" name="a4" class="">04/07/2010 04/07/2010 Spedizione/Tour</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Lago.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      STRAVOGAVERBANIA 2010<br />
+Cari amici canoisti,<br />
+Siamo lieti di invitarvi alla StraVogaVerbania 2010, che si terrà a Verbania Intra, sul Lago Maggiore, Domenica 4 Luglio. La manifestazione remiera è aperta a tutti i tipi di imbarcazione secondo le indicazioni specifiche del Bando di gara allegato e si svolgerà su due percorsi differenziati di sette e undici km. <br />
+<br />
+Maurizio Lenuzza<br />
+COMITATO ORGANIZZATORE <br />
+CANOTTIERI INTRA A.S.D.   Via Ticino, 4 Verbania (VB)<br />
+Asd CIRCOLO SESTESE CANOA KAYAK  P.zza C. da Sesto, 2 Sesto Calende (VA)<br />
+SITI INTERNET DI RIFERIMENTO: www.canottieriintra.it  www.sestesecanoa.it <br />
+<br />
+<br />
+<br />
+<br/>
+				tel: 0323.402136<br/>
+				email: canottieriintra@libero.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a10" name="a10" class="">10/07/2010 11/07/2010 Gara</a><br/> adatto a Esperti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Week end a Crodo<br />
+Sabato boatercross a staffetta per tutti, domenica gara di alto corso e discese per tutti accompagnati.<br />
+Maggiori info qui: www.crodokayakride.altervista.org<br />
+Discussione nel forum: <br />
+http://forum.ckfiumi.net/index.php/topic,2296.msg8226.html#msg8226<br/>
+				tel: alberto 337401401, fabio3470422888<br/>
+				email: kossola@alice.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a10" name="a10" class="">10/07/2010 10/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Lago.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      5° raduno nazionale "LAGO DI BOLSENA". Periplo con sosta Isola Bisentina; pranzo all'ombra dell'acropoli della antica Vesentum etrusca (offerto dall'organizzazione). Km 12 circa  <br/>
+				tel: 3801433436  /  3394748032<br/>
+				email: lacustre@supereva.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a10" name="a10" class="">10/07/2010 11/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      La A.S.D. il Porticciolo organizza per i giorni sabato 10 e domenica 11 luglio il 22° RADUNO TURISTICO NAZIONALE DI CANOA <br/>
+				tel: Fabio 3407367865; Aleandro 3474745435<br/>
+				email: francesco.lupi.50@alice.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a11" name="a11" class="">11/07/2010 11/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Domenica 11 LUGLIO 2010 alle ore 15 al Lido di Pavia sul Ticino si svolgerà la 4^ edizione del  BIG JUMP  ( il grande tuffo ): nello stesso momento migliaia di persone in decine di fiumi europei, si tufferanno nei corsi dacqua delle loro città e paesi.Discesa in canoa da Bereguardo, passeggiata ecologica con discesa in raft, navigazione con battello sul fiume..tutto grautito ...e tanto altro. IL PROGRAMMA SU http://www.ciffonauti.org/<br />
+IL FIUME E' NOSTRO: DIFENDIAMOLO<br />
+<br/>
+				tel: ivo 3290293979<br/>
+				email: cuspavia@unipv.it <br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a11" name="a11" class="">11/07/2010 11/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Lago.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      IL MINCIO IN CANOA 2010 - Le Valli del Mincio <br />
+Raduno turistico con partenza e arrivo a Rivalta sul Mincio<br />
+<br />
+Si parte dal porticciolo di Rivalta alla scoperta degli spazi più nascosti della Riserva naturale delle Valli del Mincio, attraversando canali, laghetti e distese di Fior di Loto, habitat naturale di aironi, svassi e falchi di palude. <br />
+<br />
+www.ilmincioincanoa.org<br/>
+				tel: Pro Loco <br/>
+				email: info@prolocorivalta.mn.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a18" name="a18" class="">18/07/2010 18/07/2010 Spedizione/Tour</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Due Castelli (TS), pagaiando con il WWF<br />
+<br />
+Il CKF - Canoa Kayak Friuli organizza una pagaiata di circa 20 km in costiera triestina, dal Castello di Duino alla Riserva Marina di Miramare, con pranzo e visita dell' Oasi in collaborazione con l' Area Marina protetta di Miramare.<br />
+<br />
+Info: Fabio Carletti 340/5467279 - info@canoafriuli.com<br/>
+				tel: 340 5467279<br/>
+				email: info@canoafriuli.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a18" name="a18" class="">18/07/2010 18/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      1° Manifestazione Kayak Team Donoratico.<br />
+Durante la giornata sarà organizzata una piccola gara aperta a tutti con Gadget ai vincitori. Abbiamo pensato che sia un modo semplice e simpatico per riunire canoisti , diffondere e far conoscere questo sport.<br />
+All'evento troverete lo stand di Gravita' Zero, con canoe in prova, e uno stand di rrd (roberto ricci designs) il quale mette a disposizione per prova alcuni nuovissimi sup.<br />
+In collaborazione con il Com. Tur.di Marina di Castagneto Carducci.<br />
+<br />
+http://kayaksurfdonoratico.blogspot.com/<br/>
+				tel: Francesco Socci: 3496692002 <br/>
+				email: kayakteam.donoratico@hotmail.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a24" name="a24" class="">24/07/2010 24/07/2010 Gara</a><br/> adatto a Intermedi</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      -CASTLE RAPID RACE 2010-<br />
+ sul fiume Aurino, rapida del castello<br />
+www.kayakcp.it<br/>
+				tel: Ivan Puntel 320 4927817<br/>
+				email: info@kayakcp.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a24" name="a24" class="">24/07/2010 24/07/2010 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Lago.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      PAGAIANDO CON LA LUNA PIENA 2010 <br />
+<br />
+Escursione guidata in canoa nella riserva naturale <br/>
+				tel: Pro Loco <br/>
+				email: info@prolocorivalta.mn.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+
+
+
+				<!-- END  CONTENTS -->
+				</form>
+			</div>
+			</td>
+        	<td class="dxCol">
+				<!-- INIZIO MENU DX -->
+			<div id="menudx">
+			<ul>
+				<li class="submenu_selected_U"><a href="/news/calendario.phtml">Calendario</a></li>
+				<li class="menu"><a href="/news/rss.phtml">Consulta i Forum (rss)</a></li>
+			</ul>
+			</div>
+			<div class="textWel">
+		 	 <a href="/registra.phtml">Diventa anche tu un editore!</a>
+		  	</div>	
+			<div class="textWel">
+			<p>E' a disposizione il calendario delle attività dei canoisti made in Italy<br/>
+			<br/>per inserire un appuntamento <a href="/news/calendario.phtml?ev_status=2">clicca qui</a>
+			</p>
+			</div>
+			<div class="textWel">
+			<p>TI RICORDIAMO CHE:<br/>
+			1- Prima di partire è buona norma telefonare agli organizzatori per chiedere
+			conferma dell' evento.<br/>
+			2- Consulta le news aggiornate sul <a href="/news/rss.phtml">forum di CKI</a> per le ultime novità
+			</p>
+			</div>
+			
+<!-- FINE MENU DX -->		
+			</td>
+      	</tr>
+    	</table>
+	</div>
+	<!-- END MAIN AREA -->
+		<!-- INIZIO FOOTER -->
+		<div id="footer">
+		      <p><a href="/">home</a> &#8226;  
+			  <a href="/fiume.phtml">fiumi</a> &#8226; 
+			  <a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+			  <a href="/help.phtml">come funziona</a>  &#8226;
+			  <a href="/gradi.phtml">I gradi WW</a> &#8226; 
+			  <a href="/contatto.phtml">scrivici</a> &#8226; 
+			  <a href="/profilo.phtml/dani">webmaster</a>  
+			  </p>
+				<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o 
+			pubblicazione  anche parziale per fini commerciali<br/>
+			</p>
+	<p class="loghi"><a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	</p>
+		</div>
+	</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-666569-2";
+urchinTracker();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

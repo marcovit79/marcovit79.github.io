@@ -1,0 +1,1291 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ckfiumi :: Mercatino CKI: canoe kayak usati e non </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa," />
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..." />
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0=" />
+<link href="/css/defaults.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/dyna.js"></script>
+<script type="text/javascript" src="/js/p_switch.js"></script>	
+<script type="text/javascript" src="/js/net/ckfiumi/prototype.js"></script>
+<script type="text/javascript" src="/js/net/ckfiumi/text-utils.js"></script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+	<div id="header">
+<!--	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+-->	</div>
+	<div id="mainFront">
+	  	<img id="a" src="/img/header/17.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+	</div>
+    <div id="containerMenu"><div
+   		 id="menu_left"><img src="/img/sfondo_barra_sx.gif"  alt="" /></div><div
+		  id="menu_right"><img src="/img/sfondo_barra_dx.gif"  alt="" /></div><div
+		  id="menu_orizz">
+			<a  class="menu" href="/">Home</a> |
+			<a  class="menu" href="/fiume.phtml">Fiumi</a> |
+			<a  class="menu" href="/news/calendario.phtml">Appuntamenti</a> |
+			<a  class="menu_selected_U" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+			<a  class="menu" href="http://forum.ckfiumi.net">Forums CKI</a> |
+			<a  class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+			<a  class="menu" href="/contatto.phtml">Scrivici</a> |
+			<a  class="menu" href="/login.phtml">Login</a> |
+		</div>
+	</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->	
+
+
+
+	<!-- BEGIN MAIN AREA -->
+	<div id="main">
+		<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+      	<tr>
+        	<td class="sxCol">
+			<div id="elCont">
+				<div id="elCont_left" class="z_consultaForum"></div><div
+		  		id="elCont_right">Nuovo Mercatino di CKI !</div>
+			</div>
+			<div id="sottoElCont">	
+				<form id="LOC" action="/mercatino.phtml" method="post"  enctype="multipart/form-data">
+				<!-- BEGIN  CONTENTS -->
+				<br/>
+<script type="text/javascript">
+	function otherImage(par){
+		$('img_tipo').src="/img/"+par+".jpg";
+	}
+</script> 
+<script language="javascript">
+		var currentTabId ='V';
+		function enableTab (id)	{
+			if (id == currentTabId) {
+				return;
+			}
+			obj = document.getElementById ('panel' + id);
+			obj.className = "visiblePanel";
+			obj = document.getElementById ('tab' + id);
+			obj.className = "visibleTab";
+			obj = document.getElementById ('panel' + currentTabId);
+			obj.className = "hiddenPanel";
+			obj = document.getElementById ('tab' + currentTabId);
+			obj.className = "hiddenTab";
+			currentTabId = id;
+		}
+</script>
+<script type="text/javascript" src="/js/thumb.js"></script>
+	<div style="width:100%;border: 1px solid;background:#A5A8B5;height:55px">
+	<div style="float:left;width:56%;color:white">Invitiamo chiunque abbia o cerchi kayak o canoe usati ad inserire il proprio annuncio con i dati relativi all' offerta o ricerca.
+	</div>
+	<div style="float:right;padding: 10px 4px 0px 0px">
+		<a href="/mercatino.phtml?mct_status=2"><img src="/img/nuovo_annuncio.gif" alt="mercatino ckfiumi" border="0"/></a>
+	</div>
+	</div>
+<div class="tab_container">
+	<table style="margin-top:2px" width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
+		<tr>
+			<td id="tabV" class="visibleTab" onClick="enableTab('V')"><span class="simulate_href">Vendesi</span></td>
+			<td id="tabC" class="hiddenTab" onclick="enableTab('C')"><span class="simulate_href">Cercasi</span></td>
+			<td id="tabA" class="hiddenTab" onclick="enableTab('A')"><span class="simulate_href">In più</span></td>
+			<td class="emptyTab">&nbsp</td>
+		</tr>
+	</table>
+	<div id="panelV" class="visiblePanel">
+	<span style="clear:both"><img src="/img/V.jpg"></span>
+	
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2969"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;morettimar@hotmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 28/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       marco moretti
+		   <br/>3287023066
+		   <br/>Brescia   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo kaiak  mare/ lago dis. francesconi lungh. 4,80x55 costruzione vtr. con rinforzi in kvl.<br />
+gavone stagno dietro  pozzetto grande cm. 93  buona velocità di crociera 500 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2968"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;2kayak@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: david</span><b>Vendo</b>  annuncio del : 26/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       davide
+		   <br/>0444241020
+		   <br/>Vicenza   	   
+	       <br/><a href="/rep/mercatino/0133d4c110c60ac652fdf29692e89860/200906290002.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/0133d4c110c60ac652fdf29692e89860/thumb_200906290002.JPG" /></a></div>
+	     <div class="annuncio">
+			Vendo PYRANHA MICRO 230 GIALLO-CELESTE usato<br />
+davvero meno di 10 volte a  230	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2967"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;manz-etto@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: manzetto</span><b>Vendo</b>  annuncio del : 26/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Andrea Bulgarelli
+		   <br/>3282863403
+		   <br/>Modena   	   
+	       <br/><a href="/rep/mercatino/b1e15ae24334b26b181ed1ee8de04e64/raven14.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/b1e15ae24334b26b181ed1ee8de04e64/thumb_raven14.JPG" /></a></div>
+	     <div class="annuncio">
+			Vendo canoa canadese Selway-Fisher-Design modello Raven 14' costruzione in compensato marino okumè-fiberglass-epoxy, scheda tecnica qui:<br />
+http://www.selway-fisher.com/Opcan15.htm#RAVE<br />
+nuova, bellissima, con pagaie larice/mogano<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2966"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;tirtasungai@yahoo.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: tirtasungai</span><b>Vendo</b>  annuncio del : 26/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Andrea Botta
+		   <br/>3336453427
+		   <br/>Como   	   
+	       <br/><a href="/rep/mercatino/3f4f1cb55ae6a80782979c254f817ae5/ID6_9front.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/3f4f1cb55ae6a80782979c254f817ae5/thumb_ID6_9front.JPG" /></a></div>
+	     <div class="annuncio">
+			Vendo Dagger ID 6.9 in ottime condizioni adatto <br />
+per play,running max 4°ww e per surf mare.<br />
+Lungh.211cm-Largh.62-Peso 14kg<br />
+Indicata per canoisti da 45kg a 80kg<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2965"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;tirtasungai@yahoo.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: tirtasungai</span><b>Vendo</b>  annuncio del : 26/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Andrea Botta
+		   <br/>3336453427
+		   <br/>Como   	   
+	       <br/><a href="/rep/mercatino/94d415629e40289c81c610d70ece0150/Player.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/94d415629e40289c81c610d70ece0150/thumb_Player.jpg" /></a></div>
+	     <div class="annuncio">
+			Vendo pagaia Werner Player di altissimo livello con pale in fiberglass sottovuoto e manico sagomato (bent shaft) in fiberglass/carbon . Utilizzata 3 volte su fiume 3°grado - come nuova.<br />
+Robustissima, garantisce una lunga durata  -  Ideale per river running e play<br />
+Lunghezza 197cm - Pala 46x20cm- angolo 45°<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2962"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;lodestar51@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 25/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       e
+		   <br/>3331243901
+		   <br/>Como   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			vendo kayak ammasalik verga 3.8 lago fiume etc euro170 .sevy pneus tahiti 3.8 150 eur	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2960"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;sergio.dalessio@fastwebnet.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 25/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       sergio d'alessio
+		   <br/>3337729524
+		   <br/>Milano   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo pagaia nuova WERNER modello TWIST (mai utilizzata) lunghezza 1,85m manico in carbonio pale in fiberglass, causa inutilizzo 150 valore commerciale 270.<br />
+per informazioni Tel. 3337729524 Sergio	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2959"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;roby_tere@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: roberto </span><b>Vendo</b>  annuncio del : 25/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       roberto
+		   <br/>3394577038
+		   <br/>Alessandria   	   
+	       <br/><a href="/rep/mercatino/8bfe6cc9cfd4cd9ef2775ca79dd647e3/Foto0138.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/8bfe6cc9cfd4cd9ef2775ca79dd647e3/thumb_Foto0138.jpg" /></a></div>
+	     <div class="annuncio">
+			vendesi prijon cross veramente bella ottima occasione  a 450 euro tratt.. telefonare a roberto: 3394577038	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2957"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;giorgio.perali@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: Giorgio Ostia</span><b>Vendo</b>  annuncio del : 23/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       giorgio
+		   <br/>3771638916
+		   <br/>Roma   	   
+	       <br/><a href="/rep/mercatino/c9690304fd223c1d502a671942c1bb7e/DSCF1321.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/c9690304fd223c1d502a671942c1bb7e/thumb_DSCF1321.jpg" /></a></div>
+	     <div class="annuncio">
+			Canoa da Rodeo RIOT AIR 55 buono stato, 450 euro, pagaia in omaggio	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2955"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;gregorydjit@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 23/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       gregory vincenti
+		   <br/>3471292725
+		   <br/>Roma   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Ninja Rainbow. rossa usata pochissimo 500 euro	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2953"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;meablues@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: meablues</span><b>Vendo</b>  annuncio del : 22/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       michele
+		   <br/>3467854121
+		   <br/>Pisa   	   
+	       <br/><a href="/rep/mercatino/a2d0dd63ae2ef697a635b92ff601e341/CIMG2488.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/a2d0dd63ae2ef697a635b92ff601e341/thumb_CIMG2488.JPG" /></a></div>
+	     <div class="annuncio">
+			Vendo jackson Super Star modello 2008/2009 pari al nuovo rossa tenuta gelosamente 650 euro.tel.3467854121 michele 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2952"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;pieromiki@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 22/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       STEFANO PIERINI
+		   <br/>335 - 6586884
+		   <br/>Terni   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			VENDO KAYAK WAVE SPORT HABITAT 80 COLORE ARANCIONE (ACQUISTATA DA CINQUE MESI) OTTIMO STATO. EURO 750,00 TRATTABILI.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2950"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;perni.buz@virgilio.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: perni</span><b>Vendo</b>  annuncio del : 19/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       mattia
+		   <br/>349 65 34 564
+		   <br/>Verona   	   
+	       <br/><a href="/rep/mercatino/6f0b18dc6594a4d45d8178294dac6bb4/100_0445.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/6f0b18dc6594a4d45d8178294dac6bb4/thumb_100_0445.jpg" /></a></div>
+	     <div class="annuncio">
+			Vendo canoa slalom.<br />
+Caratteristiche:<br />
+-Marca: Galasport<br />
+-Nome: Toro<br />
+-Lunghezza: 360cm<br />
+-Prezzo: 500 euro (trattabili)<br />
+-Anno : 2008	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2947"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;tecnokayak@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: tecnokayak</span><b>Vendo</b>  annuncio del : 19/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Francesco
+		   <br/>3472609021
+		   <br/>Milano   	   
+	       <br/><a href="/rep/mercatino/673e7814256aa6975b73b8f0173d3ad6/20090603173343_apache15_500.gif"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/673e7814256aa6975b73b8f0173d3ad6/thumb_20090603173343_apache15_500.gif" /></a></div>
+	     <div class="annuncio">
+			Canoa Canadese Rainbow Apache 15' verde usata 1 volta, colore verde, come nuova Euro  690 <br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2946"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;tecnokayak@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: tecnokayak</span><b>Vendo</b>  annuncio del : 19/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Francesco
+		   <br/>3472609021
+		   <br/>Milano   	   
+	       <br/><a href="/rep/mercatino/af70a4d960bc799e37a8252a608162cf/A13-Devil%20web.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/af70a4d960bc799e37a8252a608162cf/thumb_A13-Devil%20web.jpg" /></a></div>
+	     <div class="annuncio">
+			Kayak PRIJON WATER DEVIL da gioco come nuova.<br />
+Caratteristiche tecniche:<br />
+Lung. 195cm - Larg. 65cm - Peso 15Kg<br />
+Pozzetto: 86x49 cm - Capacità di carico: 85/90 Kg<br />
+Colore arancione vendo  640	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2944"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;nikodegio@hotmail.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 19/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       niccolò de giorgi
+		   <br/>349 0981422
+		   <br/>Genova   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			svendo questa canoa per totale inutilizzo. è come nuova. <br />
+200 euro con pagaia da principiante<br />
+<br />
+(ndr .... che canoa?)	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2943"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;46mirco@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: laguna</span><b>Vendo</b>  annuncio del : 18/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       mircob
+		   <br/>3921297292
+		   <br/>Venezia   	   
+	       <br/><a href="/rep/mercatino/9e0b78bea154f502eaefc12af5405629/27122009075.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/9e0b78bea154f502eaefc12af5405629/thumb_27122009075.jpg" /></a></div>
+	     <div class="annuncio">
+			vendo pagaia da mare aleutina lunga 250 cm e larga 9 cm 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2941"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;gigicody@hotmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: Gigi</span><b>Vendo</b>  annuncio del : 18/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Gigi Codinotti
+		   <br/>3336404558
+		   <br/>Brescia   	   
+	       <br/><a href="/rep/mercatino/76d49eec2870ee550089abfdeb124231/canoa_001.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/76d49eec2870ee550089abfdeb124231/thumb_canoa_001.jpg" /></a></div>
+	     <div class="annuncio">
+			Vendo kayak liquidlogic ronin 49 in perfette condizioni vedi foto a 450 euro	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2940"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;massimo.cecchetti23@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 18/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Massimo
+		   <br/>3338627416
+		   <br/>Milano   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendesi C2 slalom CS Canoe ottimo stato.<br />
+E' visionabile presso il Canoa Club Milano nella sede Nautica di Castelletto di Cuggiono (MI).<br />
+Per info contattatemi, Ciao. Massimo<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2938"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;tumax@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: Max</span><b>Vendo</b>  annuncio del : 18/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       massimo
+		   <br/>3394872956
+		   <br/>Genova   	   
+	       <br/><a href="/rep/mercatino/6fff99e247f17b703c7be5cee340d8d3/IMG_1320.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/6fff99e247f17b703c7be5cee340d8d3/thumb_IMG_1320.JPG" /></a></div>
+	     <div class="annuncio">
+			Vendo wavw sport fuse 56, come nuova, 700<br />
+visibile a Nervi	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2936"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;andreafabbri_bo@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: pupillo</span><b>Vendo</b>  annuncio del : 17/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       andrea
+		   <br/>338 9204174
+		   <br/>Bologna   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Wave Sport Habitat 74 verde, un anno e 1/2 di età e venticinque discese fatte. Graffi sì, danni no. Euro 700. ciao	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2932"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;carnevali.roberto@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 17/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       roberto carnevali
+		   <br/>3479054944
+		   <br/>Milano   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Kayay Eskimo Salto ultimo tipo, meno di un anno di vita, usato pochissimo come nuovo a  550,00 vera occasione tel.3479054944 Roby	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2931"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;stefanopiampiano@katamail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: stefanop</span><b>Vendo</b>  annuncio del : 16/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       stefano
+		   <br/>335431358
+		   <br/>Firenze   	   
+	       <br/><a href="/rep/mercatino/f6d9b9a5ecef5009a0fbc1c4fcdf1c78/P3161767.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/f6d9b9a5ecef5009a0fbc1c4fcdf1c78/thumb_P3161767.JPG" /></a></div>
+	     <div class="annuncio">
+			Paraspuzzi rinforzato IGO90 marca iGuasu-ShockWave da 5 mm in neoprene preformato e bifoderato, con spalmatura di lattice sul bordo interno che aumenta il "grip" sul pozzetto, con rinforzo in kevlar anti-abrasione da 4 mm lungo il bordo esterno per aumentare la resistenza. Il paraspruzzi è nuovo e non è mai stato usato; il giro vita è di cm 75; il giro pozzetto è di cm 124( adatto per pozzetti medi-piccoli tipo  Wawe Sport XXX) vendesi a 45 euro più eventuali spese di spedizione.   	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2930"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;leovic77@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 16/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Leonardo Possamai
+		   <br/>
+		   <br/>Treviso   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo pyranha H3 245 in buone condizioni, a 250 , compreso paraspruzzi big della pyranha.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2922"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;roby_tere@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: roberto </span><b>Vendo</b>  annuncio del : 15/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       roberto favorido 
+		   <br/>3394577038
+		   <br/>Alessandria   	   
+	       <br/><a href="/rep/mercatino/27397ffbb93dd8d88efd06a1443c278e/huka1.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/27397ffbb93dd8d88efd06a1443c278e/thumb_huka1.jpg" /></a></div>
+	     <div class="annuncio">
+			vendesi hoka blisstik ottimo affare  a 400 euro tratt. cercasi cristian di vercelli o casale per contatto tel smarrito da roberto , per contatti 3384577038...	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2918"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;andreaansia@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: andreaansia</span><b>Vendo</b>  annuncio del : 14/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       andrea
+		   <br/>3475346558
+		   <br/>Trento   	   
+	       <br/><a href="/rep/mercatino/d680481edef42fd31847311d9c1d13ae/pagaia.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/d680481edef42fd31847311d9c1d13ae/thumb_pagaia.jpg" /></a></div>
+	     <div class="annuncio">
+			vendo pagaia robson magnum comprata nel 2009 a 150 euro	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2917"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;xbenni@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 13/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       BENITO VALENTI
+		   <br/>3393190332
+		   <br/>Milano   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			VENDO KAYAK DA SQUIRT IN POLIETILENE ENIGMA PRODOTTO DA EUROKAYAK IN BUONO STATO, VISIBILE CUGGIONO (MI) EURO 300 TRATTABILI. TELEFONARE A BENITO 3393190332 XBENNI@LIBERO.IT	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2916"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;canoaclubportogruaro@hotmail.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 13/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Claudio Massarutto
+		   <br/>349 7949530
+		   <br/>Venezia   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Il canoa club "Delfino" di Portogruaro (VE) vende causa inutilizzo un RIMORCHIO PORTA CANOE, realizzato artigianalmente in ferro zincato, a 900 trattabili. E' stato immatricolato nel gennaio 1984 ed è ovviamente provvisto del libretto di circolazione. La sola pecca riguarda il fatto che è necessario portarlo a Mestre (VE) per la revisione; luci e freni funzionano correttamente, le gomme sono state controllate di recente.<br />
+Per maggiori informazioni contattatemi via mail o chiamate dopo le ore 18.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2915"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;canoaclubportogruaro@hotmail.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 13/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Claudio Massarutto
+		   <br/>349 7949530
+		   <br/>Venezia   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Il canoa club "Delfino" di Portogruaro (VE) vende 3 kayak k1 da discesa in vetroresina e 1 in kevlar/carbonio a 150 l'uno, in condizioni buone/discrete.<br />
+Per maggiori informazioni contattatemi via mail o chiamate dopo le ore 18.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2914"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;venturinimarc@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 13/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       marco
+		   <br/>
+		   <br/>Pesaro   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Jackson Super Fun ottime condizioni, super river runner. Colore arancio. Prezzo 650. Tel. 340 8308286.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2912"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;bittern@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Marelli celestino
+		   <br/>0322983389
+		   <br/>Novara   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Grabner canoa gonfiabile mod.Speed (vedi sito Grabner) motorizzabile, con 3 sedili, àncora con custodia, scalmi e remi, due pagaie smontabili ad una pala; acquistata luglio 2009 usata tre volte, come nuova: prezzo 2000 euro trattabili.<br />
+Vendo motore elettrico Torqueedo Travel 401S (vedi sito Torqueedo) con batteria al litio acquistato nel luglio 2009 come nuovo usato tre volte: prezzo 1000 euro trattabili.<br />
+Si vende per inutilizzo.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2910"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;rainbowwarriork2o@yahoo.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       matteo
+		   <br/>3291218444
+		   <br/>Roma   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Bliss Stick Mystic rossa usata poche volte a 750 euro tratt. <br />
+<br />
+<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2909"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;gelattis@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Simone Gelatti
+		   <br/>3937535747
+		   <br/>Genova   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo Exo Demon arancio del 2009, in buone condizioni a euro 550.<br />
+La canoa e' visibile a Genova Nervi. 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2908"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;roncuzzipietro@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: Pietro</span><b>Vendo</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Pietro
+		   <br/>3339818158
+		   <br/>Roma   	   
+	       <br/><a href="/rep/mercatino/b093663d9aca4177d2c41ac233ca9ac6/foto-3.jpg"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/b093663d9aca4177d2c41ac233ca9ac6/thumb_foto-3.jpg" /></a></div>
+	     <div class="annuncio">
+			Usata una ed una sola volta, PERFETTA in ogni suo dettaglio! Neanche 6 mesi di vita Ottimo per escursionismo nautico di uno o più giorni, ecc. Fornito di gavoni stagni di grande capienza. Dotata di timone che permette di andare a vela. Ripeto usato una volta, lo vendo per inutilizzo. Il fantastico comportamento tra le onde, ed un carattere molto semplice da gestire, sono le peculiarità principali di questo kayak.<br />
+Caratteristiche tecniche:<br />
+Anno: 2009 Lunghezza: 555 cm (18'2'') Larghezza: 54 cm (21'')<br />
+Capacità di portata: più di 155 kg (340 lbs)<br />
+In fibra di vetro: 23-25 kg (51-55 libbre)<br />
+Skeg retrattile / Timone / Skeg + Timone<br />
+Gavoni: Front 60L, tratteggio: 25 cm (10'') <br />
+Posteriore: 60L, tratteggio: 43x26 cm (17x10'')<br />
+Piccolo: 20L, tratteggio: 15 cm (6'')	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2907"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;andreaspinelli79@email.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Andrea Spinelli
+		   <br/>3385792135
+		   <br/>Genova   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendo canoa polo in buono stato in polietilene, buona anche per uso turistico in mare, senza riparazioni 150 euro	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2906"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;kayeda@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 11/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       salvatore
+		   <br/>0341250058
+		   <br/>Lecco   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			vendo sedile rotante per maratona kayak k1 tipo Vajda, Plastex, Nelo, regata2000, .. timoncino di ricambio per Plastex, pagaia Azzali in legno, stato più che discreto, in blocco 140 euro o separatamente.<br />
+<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2905"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;rizzi_g@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 11/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       rizzi gianluca
+		   <br/>3384624210
+		   <br/>Pavia   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			vendesi kayak habitat 74 colore sfumato giallo/arancio/rosso come nuovo, usato solo 2 volte...    800 euro	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2901"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;waltermonica46@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 10/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       PICENNI WALTER
+		   <br/>3484920425
+		   <br/>Bergamo   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			vendo kayak wave-sport modello XXX per fiume rodeo bicolore giallo\arancio come nuova. <br />
+ 250,00 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2900"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;stefanopiampiano@katamail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: stefanop</span><b>Vendo</b>  annuncio del : 09/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       stefano
+		   <br/>335431358
+		   <br/>Firenze   	   
+	       <br/><a href="/rep/mercatino/a6572a4cab35137e9403ccb097e23a59/P3091746.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/a6572a4cab35137e9403ccb097e23a59/thumb_P3091746.JPG" /></a></div>
+	     <div class="annuncio">
+			salvagente da Rodeo marca Shock Wave Vest SW 100 in cordura, come nuovo di colore rosso, taglia L ma veste M vendesi a 40  oltre le spese di spedizione 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2898"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;emme71@hotmail.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 09/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       massimiliano caterini 
+		   <br/>339 8873559
+		   <br/>Roma   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			jackson all star bellissima gialla ottimo stato 650 tratt. 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2897"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;marco.sara@unipolgf.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: marko</span><b>Vendo</b>  annuncio del : 09/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       marco sara
+		   <br/>3480067158
+		   <br/>Milano   	   
+	       <br/><a href="/rep/mercatino/a9d4a04d79159fa6c3c324557c224b18/DSCN4072.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/a9d4a04d79159fa6c3c324557c224b18/thumb_DSCN4072.JPG" /></a></div>
+	     <div class="annuncio">
+			vendo pagaia slalom RAAB, modello Pisvejc, manico ergo (www.raab-paddles.com). Nuova.<br />
+220 euro 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2896"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;marco.sara@unipolgf.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: marko</span><b>Vendo</b>  annuncio del : 09/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       marco sara
+		   <br/>3480067158
+		   <br/>Milano   	   
+	       <br/><a href="/rep/mercatino/1bbb46303aee14e57e46614f41579f6b/CombatUseEk.JPG"  rel="thumbnail"><img style="border:0" alt="foto kayak usato" src="/rep/mercatino/1bbb46303aee14e57e46614f41579f6b/thumb_CombatUseEk.JPG" /></a></div>
+	     <div class="annuncio">
+			vendo slalomina 350 cm. CS combat da gara, costruzione kev-carb sotto vuoto (race pro), buon volume, ottimo stato.<br />
+850 euro 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2895"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;riccardos45@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 09/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Riccardo Spinelli
+		   <br/>3286522918
+		   <br/>Prato   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Vendesi Kayak gonfiabile Sevylor Hudson mod. KCC360 lunghezza gonfiato 363 cm. larghezza gonfiato 89 cm. peso 15 kg. n. persone autorizzate a bordo 2 adulti + un bambino carico utile 230 kg. completo di manometro, sacca a tenuta stagna per il trasporto.<br />
+praticamente nuovo prezzo di listino 2009 euro 525,00. vendesi euro 390,00	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2892"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;info@aceacostruzioni.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 08/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       mirco de biagi
+		   <br/>3343793298
+		   <br/>Mantova   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			VENDO KAYAK NUOVO IN VETRORESINA ADATTO PER FIUME E LAGO LUNGHEZZA mt. 4,00 ANCORA IMBALLATO, MAI MESSO IN ACQUA  300,00 NON TRATTABILE LOCALITA' PIEVE DI CORIANO PER INFO MIRCO 334/3793298.<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2891"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;vertebrato@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Vendo</b>  annuncio del : 08/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       renzo monelli
+		   <br/>3357774404
+		   <br/>Mantova   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Ciao, vendo Wave Sport Big EZ, usata ben bene ma ancora perfettamente integra a  300. Se interessati mando foto.<br />
+Grazie,<br />
+Renzo 	
+	    </div>
+	</div>
+	
+	</div>
+	
+	<div id="panelC" class="hiddenPanel">
+	<span style="clear:both"><img  src="/img/C.jpg"></span>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2964"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;lince.stravagante@gmail.com </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 25/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Roberto Calzolari
+		   <br/>347 29 62 427
+		   <br/>Bologna   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Cerco un vecchio BOLERO in neoprene,<br />
+anche se risalente agli anni '80 :)<br />
+ovviamente a un prezzo modico!<br />
+GRAZIE	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2956"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;mrkmgl74@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 23/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       mirko
+		   <br/>3928914235
+		   <br/>Roma   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco sit on top surf: -5.0surf<br />
+-shockwave<br />
+-perception scooter<br />
+-cobra play<br />
+-cobra strike<br />
+-emotion charger<br />
+-mysto<br />
+-rtm loko<br />
+-secondhand islander<br />
+-nalu<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2954"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;zioantunello78@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 22/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Andrea Spadoni
+		   <br/>3482506247
+		   <br/>Massa-carrara   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Salve cerco uno o piu k1 da discesa fluviale usato in buono stato, anche con piccole riparazioni da effettuare. Per qualsiasi cosa contattatemi.<br />
+Grazie Andrea Spadoni	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2945"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;albec1@tiscali.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 19/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       alfonso
+		   <br/>
+		   <br/>Modena   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Salve ..cerco K1 slalom XL max 250 eur o se fosse proprio bello ci si accorda.	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2942"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;kayeda@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 18/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       salvatore
+		   <br/>0341250058
+		   <br/>Lecco   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco KdM ASA in buone condizioni con timoneria anche in vtr	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2937"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;lamberto.salvatori@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 17/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       lamberto salvatori
+		   <br/>3465146435
+		   <br/>Perugia   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco canoa usata da discesa. il mio peso è 80 kg altezza 1.85 piede 43 prezzo max 250 	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2929"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;mrkmgl74@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 16/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       mirko migliorelli
+		   <br/>3928914235
+		   <br/>Roma   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco:five 0 surf<br />
+shockwave<br />
+perception scooter<br />
+cobra play<br />
+cobra strike<br />
+emotion charger<br />
+mysto<br />
+rtm loko<br />
+secondhand islander<br />
+nalu<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2928"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;brisiu3@tin.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 16/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Fabrizio
+		   <br/>
+		   <br/>Torino   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco kayak allround tipo reaction - vector - zulu o simili usato a modico prezzo (max 250 )	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2913"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;dorianopuddu@tele2.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Doriano 
+		   <br/>3477945728
+		   <br/>Cagliari   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco wave sport habitat 74 usata	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2911"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;mazzaligiuseppe@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 12/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       GIUSEPPE
+		   <br/>3342465647
+		   <br/>Ferrara   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Cerco kayak doppi in vetroresina usati. <br />
+mazzaligiuseppe@libero.it	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2903"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;hitlione@alice.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 11/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       Giulio Fantechi
+		   <br/>3299877517
+		   <br/>Firenze   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			Cerco canoa da slalom ,anche modello lungo, e anche se non in buone condizioni, per canoista di 75 kg!<br />
+	
+	    </div>
+	</div>
+	
+	<div class="contenitore_merc">
+	    <a href="#" name="2893"></a>
+		<div class="data">
+		<div style="float:left">&nbsp;antonio-bocchino@libero.it </div>
+
+	    <div style="text-align:right"><span style="font-size:9px;padding-right:10px">posted by: anonimo</span><b>Compro</b>  annuncio del : 08/03/10</div>
+	    </div>
+	    <div class="estremi">
+	       antonio bocchino
+		   <br/>3483361955
+		   <br/>Lucca   	   
+	       <br/><img src="/rep/mercatino/nofoto.gif" alt="nofoto" /></div>
+	     <div class="annuncio">
+			cerco kyk da play paddler 55 kg budget 350<br />
+sono al raduno sul vara	
+	    </div>
+	</div>
+	
+	</div>
+	
+	<div id="panelA" class="hiddenPanel">
+	<span style="clear:both"><img src="/img/in_piu.jpg"></span>
+</span>
+	{MERC_A_BLOCK}
+	</div>
+</div>	
+
+				<!-- END  CONTENTS -->
+				</form>
+			</div>
+			</td>
+        	<td class="dxCol">
+				<!-- INIZIO MENU DX -->
+			<div class="rettangolo" style="text-align:justify">
+				<div class="rettangolo_titolo" style="">come funziona</div>
+					<div class="mini_contenuti">
+					<div class="mini_testo_link">
+					Per inserire un annuncio di compravendita non occorre essere registrati
+					</div>
+					<div class="mini_testo_link">
+					I campi contrassegnati da asterisco sono obbligatori
+					gli altri sono facoltativi anche se per vendere
+					qualcosa il telefono dell'inserzionista e la foto dell'oggetto
+					possono aiutare molto.
+					</div>
+					<div class="mini_testo_link">
+					L'<u>annuncio</u>, sottoposto all' approvazione dei moderatori,
+					<u>ha la durata di 21 giorni</u>, trascorsi i quali viene cancellato.
+					l'inserzionista dovrà inviarlo nuovamente se ne ha ancora interesse
+					</div>
+					<div class="mini_testo_link">
+					CKFiumi non e' responsabile degli annunci pubblicati
+					ma solo un tramite per transazioni tra privati
+					</div>
+					</div>
+				<div id="main_link"></div>
+				
+			</div>
+			<div class="rettangolo" style="text-align:center;padding: 10px 2px 10px 2px">
+				<p style="font-size:18px">
+				DURATA ANNUNCIO:  <br/><h1>21 GIORNI !</h1>
+				</p>
+			</div>
+<!-- FINE MENU DX -->	
+<br/><br/>
+<div class="rettangolo" style="text-align:center;padding: 10px 2px 10px 2px">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9030582154887701";
+//160x600, creato 20/01/08
+google_ad_slot = "2639195637";
+google_ad_width = 120;
+google_ad_height = 600;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-9030582154887701";
+/* 120x600, VISUALE creato 09/07/08 */
+google_ad_slot = "2766649753";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-9030582154887701";
+/* 120x600, mercatino 2 */
+google_ad_slot = "5284196569";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-9030582154887701";
+/* 120x600, creato 10/03/09 mercatino #3 */
+google_ad_slot = "0252271262";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+
+			</td>
+      	</tr>
+    	</table>
+	</div>
+	<!-- END MAIN AREA -->
+		<!-- INIZIO FOOTER -->
+		<div id="footer">
+		      <p><a href="/">home</a> &#8226;  
+			  <a href="/fiume.phtml">fiumi</a> &#8226; 
+			  <a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+			  <a href="/help.phtml">come funziona</a>  &#8226;
+			  <a href="/gradi.phtml">I gradi WW</a> &#8226; 
+			  <a href="/contatto.phtml">scrivici</a> &#8226; 
+			  <a href="/profilo.phtml/dani">webmaster</a>  
+			  </p>
+				<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o 
+			pubblicazione  anche parziale per fini commerciali<br/>
+			</p>
+	<p class="loghi"><a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	</p>
+		</div>
+	</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-666569-2";
+urchinTracker();
+</script>
+</body>
+</html>
+
+
+
+

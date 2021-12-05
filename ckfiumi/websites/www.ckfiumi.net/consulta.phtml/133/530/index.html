@@ -1,0 +1,346 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="iso-8859-1" />
+<title>Discesa in canoa | Ckfiumi.net </title>
+<meta name="rating" content="Safe For Kids" />
+<meta name="viewport" content="maximum-scale=1.2, width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" media="all" href="http://k.ckfiumi.net/tcss/10/styles2.css" />
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<script type="text/javascript">
+function initialize() {
+	 var locations = [
+      ['Imbarco/Put In', 43.935, 7.5138888888889, 1],
+      ['Sbarco/Take Off', 43.911944444444, 7.5161111111111, 2]
+    ];
+	var myOptions = {
+		center: new google.maps.LatLng((43.935+43.911944444444)/2, (7.5138888888889+7.5161111111111)/2),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+   };
+   var map = new google.maps.Map(document.getElementById("map"),myOptions);
+
+	var infowindow = new google.maps.InfoWindow();
+   var marker, i;
+
+   for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+   }
+}
+function loadScript() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCwovf7SW04dMtSIftHEgxPTRkYI42Ejyg&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+</head>
+<body>
+
+<div id="headerwrap">
+  <header id="mainheader" class="bodywidth"><a href="/"><img src="http://k.ckfiumi.net/img/logo-ckfiumi.png" alt="CKfiumi.net" class="logo" /></a>
+    <hgroup id="websitetitle">
+      <h1><span class="bold">Canoa</span> &  Kayak</h1>
+      <h2>la comunit&agrave; virtuale dei canoisti italiani</h2>
+    </hgroup>
+    <div>
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+      <!-- BEGIN tpl_login -->
+		  <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/login.phtml" title="Login">Editori</a></li>
+		  <li><a href="/contatto.phtml" title="Contattatci">Contattaci</a></li>
+      <!-- END tpl_login -->
+      
+      </ul>
+    </div>
+  </header>
+</div>
+<!--<span class="c900">900</span><span class="c800">800</span><span class="c600">600</span><span class="c480">480</span><span class="c320">320</span>-->
+
+<div id="maincontent" class="bodywidth">
+	<h1><span class="label_B">fiume  Roya francese:Breil - Piane</span></h1><br />
+	<div id="aboutleft" class="fiume">
+		<!-- START XSL HERE -->
+<div class="rapp-contatiner"><div>
+	regione Provence Alpes
+	(06)
+	</div><div><br/></div><div><div class="box_head">Bel tratto del roya francese, E' molto raro poterlo percorrere in quanto è in mezzo a 2 centrali che generalmente prelevano l'acqua. Molto interessanti le golette dal punto di vista geologico.</div><br/><ul class="clean box"><li><span class="box_lab box_lab_desc">aggiornato al</span><span class="box_val">2009-05-16</span></li><li><span class="box_lab box_lab_desc">grado</span><span class="box_val"><span class="grado IV">IV</span><span class="grado IVp">IV+</span></span></li><li><span class="box_lab box_lab_desc">distanza</span><span class="box_val">4 Km
+					</span></li><li><span class="box_lab box_lab_desc">tempo previsto</span><span class="box_val">2 Ore
+					</span></li><li><span class="box_lab box_lab_desc">pendenza</span><span class="box_val">&nbsp;</span></li><li><span class="box_lab box_lab_desc">stelle WildWater</span><span class="box_val"><img src="/img/3_stellaww.gif" alt="3_stellaww.gif" style="border:none"/></span></li><li><span class="box_lab box_lab_desc">portata</span><span class="box_val">15 mc/sec
+						</span></li><li><span class="box_lab box_lab_desc">stelle paesaggio</span><span class="box_val"><img src="/img/4_stella.gif" alt="4_stella.gif" style="border:none"/></span></li><li><span class="box_lab box_lab_desc">temperatura acqua</span><span class="box_val">fredda</span></li><li><span class="box_lab box_lab_desc">qualita' acqua</span><span class="box_val">buona</span></li><li><span class="box_lab box_lab_desc">periodo migliore</span><span class="box_val">quando la centrale rilascia</span></li><li><span class="box_lab box_lab_desc">livello</span><span class="box_val">&nbsp;</span></li><li><span class="box_lab box_lab_desc">fiumi vicini</span><span class="box_val">Roya francese, roya Italiano, Bevera</span></li><li><span class="box_lab box_lab_desc">imbarcazioni</span><span class="box_val"/></li></ul><br/><div class="tbl_print"><div class="label_titolo">imbarco</div><div>subito a valle del lago di Breil sula statale del col di Tenda<br/>GPS: &nbsp;Lat.43&deg;&nbsp;56'&nbsp;06"&nbsp;N&nbsp;&nbsp;Long.7&deg;&nbsp;30'&nbsp;50"&nbsp;E&nbsp;</div><div class="label_titolo">sbarco</div><div>4 Km a valle in località Piana alla centrale 400 metri a monte della galleria della statale del col di Tenda. Sbarcare oltre può essere pericoloso.<br/>GPS: &nbsp;Lat.43&deg;&nbsp;54'&nbsp;43"&nbsp;N&nbsp;&nbsp;Long.7&deg;&nbsp;30'&nbsp;58"&nbsp;E&nbsp;</div><div class="label_titolo">mappa</div><div id="map" class="mappa">&nbsp;</div><div class="label_titolo">assistenza da riva</div><div>La strada segue il fiume</div><div class="label_titolo">attenzione</div><div>a 1,40 km dall'imbarco sotto la rapida del tubo di cemento a destra ci sono dei ferri. Si passa a sx.<br/>800 metri prima dello sbarco rapida con sifone visibile dalla strada</div></div><br/><div class="tbl_print"><div class="label_titolo">siti web per approfondire</div><div><a href="http://www.brianzatour.org/engine.php?page=report_detail&amp;IDReport=08_JC_ROJA" rel="nofollow">http://www.brianzatour.org/engine.php?page=report_detail&amp;IDReport=08_J ...
+		</a><br/></div><div class="label_titolo">siti web con foto</div><div><a href="http://www.brianzatour.org/engine.php?page=report_detail&amp;IDReport=08_JC_ROJA" rel="nofollow">http://www.brianzatour.org/engine.php?page=report_detail&amp;IDReport=08_J ...
+		</a><br/></div><div class="label_titolo">idrometro</div><div>nessuno in quanto è un tratto raramente percorribile .</div><div class="label_titolo">locals di riferimento</div><div>Mauro 3474778659<br/></div></div><br/><div class="label_titolo">descrizione</div><div>circa 250 metri a valle della chiusa di Breil c'è una casetta e da li si accede al fiume. <br/><br/><img src="/rep/foto/530_Roya_imbarco.jpg" style="border:0px" alt="Roya Kayak imbarco"/> <br/>[imbarco]<br/><br/>Piccola curiosità, 400 metri dopo l'imbarco sulla sx noterete due tunnel scavati nella roccia, sono i troppo pieni per meglio far defluire l'acqua nel paese sovrastante in caso di piene. <br/>Più avanti noterete una goletta con un grosso tubo in cemento che a 30 metri di altezza attraversa il fiume. Tenete la destra ed eviterete dei ferri altimenti pericolosi. <br/><br/><img src="/rep/foto/530_Roya_goletta_tubo_cemento.jpg" style="border:0px" alt="Roya Kayak 2"/> <br/>[goletta con tubo in cemento]<br/><br/><br/>Molto bella geologicamente la rapida ed il paesaggio successivi. <br/>Dopo circa 1,5 km. noterete sulla sx una casa, qua ci sono i due passaggi chiave. <br/>La prima rapida è un dislivello che si percorre al centro nel primo tratto e poi si esce tutto a dx o tutto a sx per evitare il masso centrale, ispezione a sx. <br/>La rapida successiva presenta un forte dislivello e una curva a destra. A sinistra è sifonata, il sifone è ben visibile, ispezione ed eventuale trasbordo a dx. <br/><br/><img src="/rep/foto/530_Roya_rapida_del_sifone.jpg" style="border:0px" alt="Roya Kayak sifone"/> <br/>[rapida del sifone (a sx orografica) ]<br/><br/>La rapida può essere percorsa ovunque a seconda del livello. In genere con livelli medio bassi anche a sx vicino al sifone, con livelli alti meglio il ramo che si forma a destra. <br/>Lo sbarco è 500 metri a valle sulla destra esattamente dove una centrale rilascia l'acqua, c'è una comoda scala. Non andate oltre, sareste nell'ingresso della presa successiva con notevoli difficoltà di sbarco</div></div><div><div class="spazio">&nbsp;</div><div>Hanno contribuito a questo report:</div><div><a href="/profilo.phtml/Frederik">Frederik</a>&nbsp;</div><div class="spazio">&nbsp;</div></div></div>
+<!-- END XSL HERE --><p style="text-align:right"> <script type="text/javascript">
+			function image() {  
+				window.open("/consulta.phtml/133/530/printable","image","toolbar=no,width=620,height=400,status=no,scrollbars=yes,resizable=no,menubar=no");
+			}
+         </script>
+		<a href="/consulta.phtml/133/530/printable" onclick="image(); return false;">Stampa</a>
+		<a href="/consulta.phtml/133/530/printable" onclick="image(); return false;">
+		<img src="/img/print.gif" alt="printable" style="border:0px" /></a>
+          </p>
+	</div>
+	<section id="articlesright">
+<!-- INIZIO MENU DX -->
+         <ul class="menu">
+            <li class="menu_sel"><a href="/fiume.phtml">Fiumi</a></li>
+            <li class="menu"><a href="/idrometri/">Livelli Idrometri</a></li>
+            <li class="menu"><a href="/ricerca.phtml">Ricerca Fiume</a></li>
+            <li class="menu"><a href="/gradi.phtml">La scala dei gradi WW</a></li>
+            <li class="menu"><a href="/segnali-di-sicurezza-in-kayak.phtml">I Segnali in fiume</a></li>
+         </ul>
+         <div class="usrListAlfabetica">
+         <fieldset><legend>ricerca fiumi</legend>
+         	<form id="cercaFiume" method="get" action="/fiume.phtml">
+	<div>
+		<input type="hidden" value="{ListaAlfabetica::lettera}" name="letter"/>
+		<select class="mselect" name="nazione"  onchange="document.getElementById('cercaFiume').submit()">
+			
+				<option value="IT"  selected="selected">Italia</option>
+			
+				<option value="A" >Austria</option>
+			
+				<option value="BAL" >Balcani</option>
+			
+				<option value="FR" >Francia</option>
+			
+				<option value="GR" >Grecia</option>
+			
+				<option value="NOR" >Norvegia</option>
+			
+				<option value="SLO" >Slovenia</option>
+			
+				<option value="ES" >Spagna</option>
+			
+				<option value="CH" >Svizzera</option>
+			
+		</select>
+	</div> 
+	<div>
+<!-- inizio listaAlfabetica -->
+	<table>
+ 
+    <tr>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/A"><b>A</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/B"><b>B</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/C"><b>C</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/D"><b>D</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/E"><b>E</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/F"><b>F</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/G"><b>G</b></a></td>
+		<td > &nbsp; </td>
+
+        
+    </tr>
+ 
+    <tr>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/H"><b>H</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/I"><b>I</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/J"><b>J</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/K"><b>K</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/L"><b>L</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/M"><b>M</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/N"><b>N</b></a></td>
+		<td > &nbsp; </td>
+
+        
+    </tr>
+ 
+    <tr>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/O"><b>O</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/P"><b>P</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/Q"><b>Q</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/R"><b>R</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/S"><b>S</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/T"><b>T</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/U"><b>U</b></a></td>
+		<td > &nbsp; </td>
+
+        
+    </tr>
+ 
+    <tr>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/V"><b>V</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/W"><b>W</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/X"><b>X</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/Y"><b>Y</b></a></td>
+		<td > &nbsp; </td>
+
+        <td class="listaAlfabetica"><a class="" href="/fiume.phtml/letter/Z"><b>Z</b></a></td>
+		<td > &nbsp; </td>
+
+        
+    </tr>
+	
+</table>
+
+<br />
+<!-- fine listaAlfabetica -->
+	</div>
+	
+	</form>
+	
+
+
+
+         </fieldset>
+         <fieldset><legend>fiumi per regione</legend>
+         <form id="FiumiPerRegioni" method="get" action="/fiume.phtml">
+	<div >
+		<select class="mselect" name="regione" onchange="document.getElementById('FiumiPerRegioni').submit()">
+			<option value="">-- seleziona --</option>
+			
+				<option value="1" >Abruzzo</option>
+			
+				<option value="2" >Basilicata</option>
+			
+				<option value="3" >Calabria</option>
+			
+				<option value="4" >Campania</option>
+			
+				<option value="5" >Emilia Romagna</option>
+			
+				<option value="6" >Friuli Venezia Giulia</option>
+			
+				<option value="7" >Lazio</option>
+			
+				<option value="8" >Liguria</option>
+			
+				<option value="9" >Lombardia</option>
+			
+				<option value="10" >Marche</option>
+			
+				<option value="11" >Molise</option>
+			
+				<option value="12" >Piemonte</option>
+			
+				<option value="13" >Puglia</option>
+			
+				<option value="14" >Sardegna</option>
+			
+				<option value="15" >Sicilia</option>
+			
+				<option value="16" >Toscana</option>
+			
+				<option value="17" >Trentino Alto Adige</option>
+			
+				<option value="18" >Umbria</option>
+			
+				<option value="19" >Val d'Aosta</option>
+			
+				<option value="20" >Veneto</option>
+			
+		</select>
+	</div> 
+</form>
+	
+	
+
+         </fieldset>
+         </div>
+         <div class="textWel">
+         <p>TI RICORDIAMO CHE:<br/>
+         1- I fiumi vanno discesi con  attrezzature e abbigliamento  adatto al tipo di percorso
+         affrontato.<br/>
+         2- Per discendere i fiumi bisogna frequentare dei corsi di canoa tenuti da
+         personale qualificato.<br/>
+         3- I principianti durante le discese devono essere affiancati e consigliati
+         da guide esperte.<br/>
+         4- Una discesa non si effettua mai in solitaria, il numero minimo dei partecipanti può variare
+         a seconda della preparazione dei canoisti e delle difficoltà che si possono incontrare.
+         </p>
+         </div>
+
+<!-- FINE MENU DX -->
+	</section>
+</div>
+
+<div id="footerwrap">
+  <footer id="mainfooter" class="bodywidth">
+    <div>
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/sitemap.phtml" title="Sitemap">Sitemap</a></li>
+        <li><a href="/contatto.phtml" title="Contact Us">Contattaci</a></li>
+      </ul>
+    </div>
+    <p class="copyright">Copyright &copy; 2012. Valid <a href="http://validator.w3.org/check?uri=referer" title="HTML5">HTML5</a>.</p>
+  </footer>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" ></script>
+<script src="http://k.ckfiumi.net/tjs/10/jquery-ui-1.8.23.custom.min.js" ></script>
+<script src="http://k.ckfiumi.net/tjs/10/call/?q=new;index" ></script>
+</body>
+</html>
+
+
+

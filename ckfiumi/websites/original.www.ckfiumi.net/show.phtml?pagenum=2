@@ -1,0 +1,476 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ckfiumi :: gli Iscritti! </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa," />
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..." />
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0=" />
+<link href="http://kstatic.ckfiumi.net/css/defaults.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://kstatic.ckfiumi.net/js/all-1.js"></script>
+<script type="text/javascript">
+if(top.location != location) {
+   top.location.href = document.location.href;
+}
+</script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+	<div id="header">
+<!--	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+-->	</div>
+	<div id="mainFront">
+	  	<img id="a" src="http://kstatic.ckfiumi.net/img/header/24.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+	</div>
+    <div id="containerMenu"><div
+   		 id="menu_left"><img src="http://kstatic.ckfiumi.net/img/sfondo_barra_sx.gif"  alt="" /></div><div
+		  id="menu_right"><img src="http://kstatic.ckfiumi.net/img/sfondo_barra_dx.gif"  alt="" /></div><div
+		  id="menu_orizz">
+			<a  class="menu" href="/">Home</a> |
+			<a  class="menu" href="/fiume.phtml">Fiumi</a> |
+			<a  class="menu" href="/news/calendario.phtml">Appuntamenti</a> |
+			<a  class="menu" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+			<a  class="menu_selected_U" href="http://forum.ckfiumi.net">Forums CKI</a> |
+			<a  class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+			<a  class="menu" href="/contatto.phtml">Scrivici</a> |
+			<a  class="menu" href="/login.phtml">Login</a> |
+		</div>
+	</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->	
+
+
+
+	<!-- BEGIN MAIN AREA -->
+	<div id="main">
+		<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+      	<tr>
+        	<td class="sxCol">
+			<div id="elCont">
+				<div id="elCont_left" class="z_listaEditor"></div><div
+		  		id="elCont_right">I nostri editori</div>
+			</div>
+			<div id="sottoElCont">	
+				<form id="LOC" action="/show.phtml" method="post">
+				<!-- BEGIN  CONTENTS -->
+				<div style="padding:10px;text-align:center;border: 1px solid black">
+<!-- inizio form ricerca -->
+<div>
+<div style="float:left">ricerca per alias <input type="text" value="" name="Alias"/></div>
+<div style="float:right">ricerca per email <input type="text" value="" name="Email"/></div>
+</div><br/><br/>
+<div style=""><input class="bottone" type="submit" name="go" value="ricerca" /></div>
+<!-- fine form ricerca -->
+</div>
+<div class="small">l' icona <img src="/img/profilo.gif" style="width:14px"/> indica se l'editore ha inserito un profilo</div>
+<br/>
+<div style="padding-top:20px">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+	
+	<tr>
+		<td><a href="/profilo.phtml/andreaansia"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/andreaansia">andreaansia</a></td>
+		<td class="capitalizza">andrea</td>
+		<td class="capitalizza">tomasi</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/andreadc"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/andreadc">andreadc</a></td>
+		<td class="capitalizza">andrea</td>
+		<td class="capitalizza">dal col</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/AndreaM93"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/AndreaM93">AndreaM93</a></td>
+		<td class="capitalizza">Andrea</td>
+		<td class="capitalizza">Monti</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/andrearicci"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/andrearicci">andrearicci</a></td>
+		<td class="capitalizza">andrea</td>
+		<td class="capitalizza">ricci</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/andreino"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/andreino">andreino</a></td>
+		<td class="capitalizza">Andrea</td>
+		<td class="capitalizza">Colombo</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Andrew72"><img src="/img/profilo.gif" style="border:none" alt="vedi profilo" title="vedi profilo"/></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Andrew72">Andrew72</a></td>
+		<td class="capitalizza">Andrea</td>
+		<td class="capitalizza">Mello</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/androclo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/androclo">androclo</a></td>
+		<td class="capitalizza">andrea</td>
+		<td class="capitalizza">androni</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/angelo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/angelo">angelo</a></td>
+		<td class="capitalizza">angelo</td>
+		<td class="capitalizza">bellinzona</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Angelo Vergani"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Angelo Vergani">Angelo Vergani</a></td>
+		<td class="capitalizza">angelo</td>
+		<td class="capitalizza">vergani</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/angelodellanoce"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/angelodellanoce">angelodellanoce</a></td>
+		<td class="capitalizza">Angelo</td>
+		<td class="capitalizza">Della Noce</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/angiz"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/angiz">angiz</a></td>
+		<td class="capitalizza">Andrea</td>
+		<td class="capitalizza">Gizdulich</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Anselmo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Anselmo">Anselmo</a></td>
+		<td class="capitalizza">Anselmo</td>
+		<td class="capitalizza">Braga</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/ANTONIO"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/ANTONIO">ANTONIO</a></td>
+		<td class="capitalizza">Antonio</td>
+		<td class="capitalizza">TOMMASI</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/antonio sk"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/antonio sk">antonio sk</a></td>
+		<td class="capitalizza">antonio</td>
+		<td class="capitalizza">casaburi</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Anzul"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Anzul">Anzul</a></td>
+		<td class="capitalizza">Angelo</td>
+		<td class="capitalizza">Grassi</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/APaolo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/APaolo">APaolo</a></td>
+		<td class="capitalizza">Paolo</td>
+		<td class="capitalizza">Addabbo</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/apollo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/apollo">apollo</a></td>
+		<td class="capitalizza">alberto</td>
+		<td class="capitalizza">molent</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Arfa"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Arfa">Arfa</a></td>
+		<td class="capitalizza">Andrea</td>
+		<td class="capitalizza">Arfaioli</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Arnaldo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Arnaldo">Arnaldo</a></td>
+		<td class="capitalizza">Antonio</td>
+		<td class="capitalizza">Vitetta</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/ATLANTIC960"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/ATLANTIC960">ATLANTIC960</a></td>
+		<td class="capitalizza">domenico</td>
+		<td class="capitalizza">valletta</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/augusto"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/augusto">augusto</a></td>
+		<td class="capitalizza">augusto</td>
+		<td class="capitalizza">maionchi</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/axel"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/axel">axel</a></td>
+		<td class="capitalizza">axel</td>
+		<td class="capitalizza">conti</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/baio"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/baio">baio</a></td>
+		<td class="capitalizza">maurizio</td>
+		<td class="capitalizza">taruffi</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Baldo"><img src="/img/profilo.gif" style="border:none" alt="vedi profilo" title="vedi profilo"/></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Baldo">Baldo</a></td>
+		<td class="capitalizza">Francesco</td>
+		<td class="capitalizza">Balducci</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/bandit"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/bandit">bandit</a></td>
+		<td class="capitalizza">danilo</td>
+		<td class="capitalizza">padovan</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/barbara barberis"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/barbara barberis">barbara barberis</a></td>
+		<td class="capitalizza">barbara</td>
+		<td class="capitalizza">barberis</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/bart"><img src="/img/profilo.gif" style="border:none" alt="vedi profilo" title="vedi profilo"/></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/bart">bart</a></td>
+		<td class="capitalizza">paolo</td>
+		<td class="capitalizza">bartoloni</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/battista"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/battista">battista</a></td>
+		<td class="capitalizza">battista</td>
+		<td class="capitalizza">baglione</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Baydarka"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Baydarka">Baydarka</a></td>
+		<td class="capitalizza">Antonio</td>
+		<td class="capitalizza">Vitetta</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Bek"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Bek">Bek</a></td>
+		<td class="capitalizza">Paolo</td>
+		<td class="capitalizza">Beccaria</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Bek dek"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Bek dek">Bek dek</a></td>
+		<td class="capitalizza">Lorenzo</td>
+		<td class="capitalizza">Pasqua</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/Bene"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/Bene">Bene</a></td>
+		<td class="capitalizza">Marco</td>
+		<td class="capitalizza">Benedetti</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/bepomarangon"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/bepomarangon">bepomarangon</a></td>
+		<td class="capitalizza">NEVIO</td>
+		<td class="capitalizza">SEGATTI</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/beppe"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/beppe">beppe</a></td>
+		<td class="capitalizza">giuseppe</td>
+		<td class="capitalizza">capella</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/beppe fradicio"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/beppe fradicio">beppe fradicio</a></td>
+		<td class="capitalizza">giuseppe</td>
+		<td class="capitalizza">serafini</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/beppecaramella"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/beppecaramella">beppecaramella</a></td>
+		<td class="capitalizza">beppe</td>
+		<td class="capitalizza">caramella</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/beppeporta"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/beppeporta">beppeporta</a></td>
+		<td class="capitalizza">Beppe</td>
+		<td class="capitalizza">Porta</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/beppepuddu"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/beppepuddu">beppepuddu</a></td>
+		<td class="capitalizza">Beppe</td>
+		<td class="capitalizza">Puddu</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/bertulo"></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/bertulo">bertulo</a></td>
+		<td class="capitalizza">roberto</td>
+		<td class="capitalizza">miris</td>
+	</tr>
+	
+	<tr>
+		<td><a href="/profilo.phtml/betta"><img src="/img/profilo.gif" style="border:none" alt="vedi profilo" title="vedi profilo"/></a></td>
+		<td class="capitalizza"><a href="/profilo.phtml/betta">betta</a></td>
+		<td class="capitalizza">roberta</td>
+		<td class="capitalizza">tondini</td>
+	</tr>
+	
+</table>
+</div>
+<div style="height:10" colspan="5">&nbsp;</div>
+</div>
+   			<div style="text-align:center">
+   			&nbsp;
+   			
+   			<a href="/show.phtml?pagenum=-1"></a>
+   			&nbsp;
+   			
+   			<a href="/show.phtml?pagenum=1">1</a>
+   			&nbsp;
+   			
+   			<b>2</b>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=3">3</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=4">4</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=5">5</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=6">6</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=7">7</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=8">8</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=9">9</a>
+   			
+   			&nbsp;
+   			<a class="next" href="/show.phtml?pagenum=10">&nbsp;<b>Next</b></a>
+   			
+   			&nbsp;
+   			<br/>
+   			<i>(20 pagine totali )</i>
+   			</div>
+<br/><br/>			
+   
+
+				<!-- END  CONTENTS -->
+				</form>
+			</div>
+			</td>
+        	<td class="dxCol">
+				<!-- INIZIO MENU DX -->
+			<div id="menudx">
+			<ul>
+				<li class="menu"><a href="/login.phtml">Login</a></li>
+				<li class="menu"><a href="/registra.phtml">Registrati</a></li>
+				<li class="menu"><a href="/recupera.phtml">Recupera Password</a></li>
+				<li class="menu"><a href="/help.phtml">Come Funziona</a></li>
+				<li class="menu"><a href="/madeby.phtml">Chi siamo</a></li>
+				<li class="submenu_selected_U"><a href="/show.phtml">Lista Editori</a></li>
+			</ul>
+			</div>
+			<div class="textWel">
+		 	 <a href="/registra.phtml">Diventa anche tu un editore!</a>
+		  	</div>	
+			<div class="textWel">
+			<p>TI RICORDIAMO CHE:<br/>
+			1- I fiumi vanno discesi con  attrezzature e abbigliamento  adatto al tipo di percorso 
+			affrontato.<br/> 
+			2- Per discendere i fiumi bisogna frequentare dei corsi di canoa tenuti da 
+			personale qualificato.<br/> 
+			3- I principianti durante le discese devono essere affiancati e consigliati 
+			da guide esperte.<br/>
+			4- Una discesa non si effettua mai in solitaria, il numero minimo dei partecipanti può variare 
+			a seconda della preparazione dei canoisti e delle difficoltà che si possono incontrare.
+			</p>
+			</div>
+<!-- FINE MENU DX -->		
+
+			</td>
+      	</tr>
+    	</table>
+	</div>
+	<!-- END MAIN AREA -->
+		<!-- INIZIO FOOTER -->
+		<div id="footer">
+		      <p><a href="/">home</a> &#8226;  
+			  <a href="/fiume.phtml">fiumi</a> &#8226; 
+			  <a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+			  <a href="/help.phtml">come funziona</a>  &#8226;
+			  <a href="/gradi.phtml">I gradi WW</a> &#8226; 
+			  <a href="/contatto.phtml">scrivici</a> &#8226; 
+			  <a href="/profilo.phtml/dani">webmaster</a>  
+			  </p>
+				<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o 
+			pubblicazione  anche parziale per fini commerciali<br/>
+			</p>
+	<p class="loghi"><a href="/redirect.phtml?target=fick" rel="nofollow"><img src="http://kstatic2.ckfiumi.net/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="http://kstatic.ckfiumi.net/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="http://kstatic2.ckfiumi.net/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	</p>
+		</div>
+	</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-666569-2";
+urchinTracker();
+</script>
+</body>
+</html>
+
+
+
+
+
+

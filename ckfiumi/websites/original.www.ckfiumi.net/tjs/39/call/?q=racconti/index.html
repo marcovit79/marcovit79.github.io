@@ -1,0 +1,17 @@
+ $(document).ready(function() {
+	$('#pagination').removeClass('hide');
+	$('#oldpagination').addClass('hide');
+
+	$(".activate").bind("click", function(e){ 
+		e.preventDefault();
+		var c = $(this).children("p");
+		var a = $(this).children("a");
+		if( c.hasClass('list_down')){
+			c.removeClass('list_down');a.removeClass('list_down');
+			c.addClass('list_up');a.addClass('list_up');
+		}else{
+			c.removeClass('list_up');a.removeClass('list_up');
+			c.addClass('list_down');a.addClass('list_down');
+		}
+	});
+});

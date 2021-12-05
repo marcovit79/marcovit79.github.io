@@ -1,0 +1,421 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="iso-8859-1" />
+<title>Discesa in canoa | Ckfiumi.net </title>
+<meta name="rating" content="Safe For Kids" />
+<meta name="viewport" content="maximum-scale=1.2, width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" media="all" href="http://k2.ckfiumi.net/tcss/39/styles2.min.css" />
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<script type="text/javascript">
+function initialize() {
+	 var locations = [
+      ['Imbarco/Put In', {Page_i_lat_sess}, {Page_i_lon_sess}, 1],
+      ['Sbarco/Take Off', {Page_s_lat_sess}, {Page_s_lon_sess}, 2]
+    ];
+	var myOptions = {
+		center: new google.maps.LatLng(({Page_i_lat_sess}+{Page_s_lat_sess})/2, ({Page_i_lon_sess}+{Page_s_lon_sess})/2),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+   };
+   var map = new google.maps.Map(document.getElementById("map"),myOptions);
+
+	var infowindow = new google.maps.InfoWindow();
+   var marker, i;
+
+   for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+   }
+}
+function loadScript() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCwovf7SW04dMtSIftHEgxPTRkYI42Ejyg&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+</head>
+<body>
+
+<div id="headerwrap">
+  <header id="mainheader" class="bodywidth"><a href="/"><img src="http://k2.ckfiumi.net/img/logo-ckfiumi.png" alt="CKfiumi.net" class="logo" /></a>
+    <div id="websitetitle">
+      <h1><span class="bold">Canoa</span> &  Kayak</h1>
+      <h2>la comunit&agrave; virtuale dei canoisti italiani</h2>
+    </div>
+    <div class="div_mainheader">
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+      <!-- BEGIN tpl_login -->
+		  <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/login.phtml" title="Login">Editori</a></li>
+		  <li><a href="/contatto.phtml" title="Contattatci">Contattaci</a></li>
+      <!-- END tpl_login -->
+      
+      </ul>
+    </div>
+  </header>
+</div>
+
+<div id="maincontent" class="bodywidth">
+	<h1><span class="label_B">fiume  Serchio:Campia - Borgo a Mozzano</span></h1><br />
+	<div id="aboutleft" class="fiume">
+		<!-- START XSL HERE -->
+<div class="rapp-contatiner"><div>
+	regione Toscana
+	(LU)
+	</div><div><br/></div><div><div class="box_head">Lungo tratto adatto, con qualche attenzione, ai principianti. Percorso piuttosto vario che consente di apprezzare i panorami della Garfagnana. Sbarco trionfale sotto gli archi del ponte del Diavolo.</div><br/><ul class="clean box resourceList"><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">aggiornato al</div><div class="rscTblListItemDx">2006-02-15</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">grado</div><div class="rscTblListItemDx"><span class="grado II">II</span></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">distanza</div><div class="rscTblListItemDx">18 Km
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">tempo previsto</div><div class="rscTblListItemDx">4 Ore
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">pendenza</div><div class="rscTblListItemDx">5 m/Km
+							</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle WildWater</div><div class="rscTblListItemDx"><img src="/img/1_stellaww.gif" alt="1_stellaww.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">portata</div><div class="rscTblListItemDx">&nbsp;A</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">stelle paesaggio</div><div class="rscTblListItemDx"><img src="/img/2_stella.gif" alt="2_stella.gif" style="border:none"/></div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">temperatura acqua</div><div class="rscTblListItemDx">fredda</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">qualita' acqua</div><div class="rscTblListItemDx">buona</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">periodo migliore</div><div class="rscTblListItemDx">primavera/autunno</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">livello</div><div class="rscTblListItemDx">&nbsp;</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">fiumi vicini</div><div class="rscTblListItemDx">Lima</div></div></li><li class="rscTblListItem"><div class="rscTblContainer"><div class="rscTblListItemSx rscTblListItemSxTitle">imbarcazioni</div><div class="rscTblListItemDx"/></div></li></ul><br/><div class="tbl_print"><div class="label_titolo">imbarco</div><div>Al ponte di Campia, 8 km a valle di Castelnuovo di Garfagnana.<br/></div><div class="label_titolo">sbarco</div><div>Al Ponte del Diavolo (o della Maddalena) a Borgo a Mozzano, sponda sx. Si parcheggia accanto al ponte insieme ai turisti.<br/></div><div class="label_titolo">assistenza da riva</div><div>Strade vicine ovunque. Sponde sempre praticabili.</div><div class="label_titolo">attenzione</div><div>Fare attenzione ad alcuni guadi sifonati facilmente trasbordabili e alla rapida di III dopo il ponte di Calavorno.</div></div><br/><div class="tbl_print"><div class="label_titolo">idrometro</div><div><a href="http://www.serchio-autoritadibacino.it/monitora/marte/tes_idr.html">http://www.serchio-autoritadibacino.it/monitora/marte/tes_idr.html</a><br/>Fare riferimento all'idrometro del ponte di Campia per la prima parte del percorso, percorribile in occasione dei rilasci della diga di Castelnuovo. La seonda metà del percorso (riferirsi all'idrometro di Calavorno) è percorribile in occasione delle piogge grazie ai numerosi affluenti.</div></div><br/><div class="label_titolo">descrizione</div><div>Gran parte del percorso (fino al ponte di Calavorno) è in valle aperta. Difficoltà di I,II letto ciottoloso, la velocità dell'acqua è comunque piuttosto costante e di tanto in tanto qualche rapidina ravviva la discesa. Panorama sulle Alpi Apuane a dx e sulle montagne dell'appennino tosco-emiliano a sx.<br/>Fare attenzione a qualche sbarramento e guado su tubi facilmente trasbordabile e in corrispondenza di alcuni cantieri con lavori in corso lungo il fiume.<br/>A quattro km dall'arrivo, presso il ponte di Calavorno, il fiume si ingola. Poco oltre sono presenti due passaggi di cui un terzo grado eventualmente trasbordabile. Si immette quindi da sx la Lima che aumenta sensibilmente portata e letto e in breve, tra rapide ondose, si arriva al lago formato dalla diga di Borgo a Mozzano con il bellissimo ponte medioevale "del Diavolo" dagli archi irregolari.<br/><br/><img src="/rep/foto/pisa_pontemaddalena.jpg" style="border:0px;width:480px;height:322px;" alt=""/></div></div><div><div class="spazio">&nbsp;</div><div>Hanno contribuito a questo report:</div><div><a href="/profilo.phtml/Luigi">Luigi</a>&nbsp;<a href="/profilo.phtml/Marco">Marco</a>&nbsp;</div><div class="spazio">&nbsp;</div></div></div>
+<!-- END XSL HERE --><p style="text-align:right"> <script type="text/javascript">
+			function image() {  
+				window.open("/consulta.phtml/165/154/printable","image","toolbar=no,width=620,height=400,status=no,scrollbars=yes,resizable=no,menubar=no");
+			}
+         </script>
+		<a href="/consulta.phtml/165/154/printable" onclick="image(); return false;">Stampa</a>
+		<a href="/consulta.phtml/165/154/printable" onclick="image(); return false;">
+		<img src="/img/print.gif" alt="printable" style="border:0px" /></a>
+          </p>
+	</div>
+	<section id="articlesright">
+<!-- INIZIO MENU DX -->
+         <ul class="menu">
+            <li class="menu_sel"><a href="/fiume.phtml">Fiumi</a></li>
+            <li class="menu"><a href="/idrometri/">Livelli Idrometri</a></li>
+            <li class="menu"><a href="/ricerca.phtml">Ricerca Fiume</a></li>
+            <li class="menu"><a href="/gradi.phtml">La scala dei gradi WW</a></li>
+            <li class="menu"><a href="/segnali-di-sicurezza-in-kayak.phtml">I Segnali in fiume</a></li>
+         </ul>
+         <div class="usrListAlfabetica">
+         <fieldset><legend>ricerca fiumi</legend>
+         	<form id="cercaFiume" method="get" action="/fiume.phtml">
+	<div>
+		<input type="hidden" value="" name="letter"/>
+		<select class="mselect" name="nazione"  onchange="document.getElementById('cercaFiume').submit()">
+			
+				<option value="IT"  selected="selected">Italia</option>
+			
+				<option value="A" >Austria</option>
+			
+				<option value="BAL" >Balcani</option>
+			
+				<option value="FR" >Francia</option>
+			
+				<option value="GR" >Grecia</option>
+			
+				<option value="NOR" >Norvegia</option>
+			
+				<option value="SLO" >Slovenia</option>
+			
+				<option value="ES" >Spagna</option>
+			
+				<option value="CH" >Svizzera</option>
+			
+		</select>
+	</div> 
+<!-- inizio listaAlfabetica -->
+	<div class="tbl width-90">
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/A"><b>A</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/B"><b>B</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/C"><b>C</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/D"><b>D</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/E"><b>E</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/F"><b>F</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/G"><b>G</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/H"><b>H</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/I"><b>I</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/J"><b>J</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/K"><b>K</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/L"><b>L</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/M"><b>M</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/N"><b>N</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/O"><b>O</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/P"><b>P</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Q"><b>Q</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/R"><b>R</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica_selected"><a class="" href="/fiume.phtml/letter/S"><b>S</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/T"><b>T</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/U"><b>U</b></a></div>
+
+        
+    </div>
+ 
+    <div class="tbl-row">
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/V"><b>V</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/W"><b>W</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/X"><b>X</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Y"><b>Y</b></a></div>
+
+        <div class="tbl-cell listaAlfabetica"><a class="" href="/fiume.phtml/letter/Z"><b>Z</b></a></div>
+
+        
+    </div>
+	
+</div>
+
+<br />
+<!-- fine listaAlfabetica -->
+	
+	<span><a href="/fiume.phtml/624">Sa perda bianca</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/176">Salto</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/243">San bernardino</a></span> <span class="piccolo">IT - 3 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/505">San Clemente (Borro di ...)</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/432">San Fratello (Furiano)</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/415">San Giovanni</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/294">San Godenzo-Comano </a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/202">Sangone</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/508">Sansobbia</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/191">Santerno</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/207">Sarca</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/150">Savena</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/396">Savenca</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/667">Sàmmaro</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/362">Scagliana</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/306">Scheggia</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/183">Scoltenna</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/534">Scrivia</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/652">Secchia</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/442">Secchiello</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/209">Sentino</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/165">Serchio</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/401">Serio</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/2">Sermenza</a></span> <span class="piccolo">IT - 3 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/124">Sermenzino</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/1">Sesia</a></span> <span class="piccolo">IT - 10 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/316">Sessera</a></span> <span class="piccolo">IT - 3 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/389">Settimana</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/110">Sieve</a></span> <span class="piccolo">IT - 4 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/326">Silisia</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/181">Silla</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/615">Sissuola</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/539">Sizzone</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/471">Slizza</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/392">Soana</a></span> <span class="piccolo">IT - 3 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/433">Solano (Fosso di Cetica)</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/515">Sorba</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/472">Stabina</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/551">Staffora</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/410">Stella </a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/360">Stora</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/559">Strona</a></span> <span class="piccolo">IT - 4 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/541">Strona di vallemosso</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/215">Stura di Ala</a></span> <span class="piccolo">IT - 1 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/144">Stura di Demonte</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/321">Stura di Lanzo</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/514">Stura di Valgrande</a></span> <span class="piccolo">IT - 3 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/216">Stura di Viù</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	<span><a href="/fiume.phtml/167">Sturla</a></span> <span class="piccolo">IT - 2 tratti</span><br />
+	
+	</form>
+	
+
+
+
+         </fieldset>
+         <fieldset><legend>fiumi per regione</legend>
+         <form id="FiumiPerRegioni" method="get" action="/fiume.phtml">
+	<div >
+		<select class="mselect" name="regione" onchange="document.getElementById('FiumiPerRegioni').submit()">
+			<option value="">-- seleziona --</option>
+			
+				<option value="1" >Abruzzo</option>
+			
+				<option value="2" >Basilicata</option>
+			
+				<option value="3" >Calabria</option>
+			
+				<option value="4" >Campania</option>
+			
+				<option value="5" >Emilia Romagna</option>
+			
+				<option value="6" >Friuli Venezia Giulia</option>
+			
+				<option value="7" >Lazio</option>
+			
+				<option value="8" >Liguria</option>
+			
+				<option value="9" >Lombardia</option>
+			
+				<option value="10" >Marche</option>
+			
+				<option value="11" >Molise</option>
+			
+				<option value="12" >Piemonte</option>
+			
+				<option value="13" >Puglia</option>
+			
+				<option value="14" >Sardegna</option>
+			
+				<option value="15" >Sicilia</option>
+			
+				<option value="16" >Toscana</option>
+			
+				<option value="17" >Trentino Alto Adige</option>
+			
+				<option value="18" >Umbria</option>
+			
+				<option value="19" >Val d'Aosta</option>
+			
+				<option value="20" >Veneto</option>
+			
+		</select>
+	</div> 
+</form>
+	
+	
+
+         </fieldset>
+         </div>
+         <div class="textWel">
+         <p>TI RICORDIAMO CHE:<br/>
+         1- I fiumi vanno discesi con  attrezzature e abbigliamento  adatto al tipo di percorso
+         affrontato.<br/>
+         2- Per discendere i fiumi bisogna frequentare dei corsi di canoa tenuti da
+         personale qualificato.<br/>
+         3- I principianti durante le discese devono essere affiancati e consigliati
+         da guide esperte.<br/>
+         4- Una discesa non si effettua mai in solitaria, il numero minimo dei partecipanti può variare
+         a seconda della preparazione dei canoisti e delle difficoltà che si possono incontrare.
+         </p>
+         </div>
+
+<!-- FINE MENU DX -->
+	</section>
+</div>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<div id="footerwrap">
+  <footer id="mainfooter" class="bodywidth">
+    <div>
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about.phtml" title="About">About</a></li>
+        <li><a href="/sitemap.phtml" title="Sitemap">Sitemap</a></li>
+        <li><a href="/contatto.phtml" title="Contact Us">Contattaci</a></li>
+      </ul>
+    </div>
+    <p class="copyright">Copyright &copy; 2006-2014. All rights reserved<!--Valid <a href="http://validator.w3.org/check?uri=referer&&charset=iso-8859-1&doctype=HTML5&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices" title="HTML5">HTML5</a>-->.</p>
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://k2.ckfiumi.net/tjs/39/jquery-ui-1.10.3.custom.min.js" ></script>
+<script src="http://k.ckfiumi.net/tjs/39/call/?q=new;index" ></script>
+</body>
+</html>
+
+
+

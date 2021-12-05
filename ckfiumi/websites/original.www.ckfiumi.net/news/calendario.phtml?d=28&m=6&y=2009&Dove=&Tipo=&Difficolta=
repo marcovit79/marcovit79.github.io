@@ -1,0 +1,636 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ckfiumi :: Calendario appuntamenti uscite raduni e affini in canoa/kayak </title>
+<meta name="keywords" content="Guida fluviale, fiumi, torrenti, descrizione fiumi, canoa, kayak, discesa in canoa," />
+<meta name="description" content="Guida ai fiumi italiani per la discesa in canoa o in kayak. Informazioni e descrizione sul percorso, il livello di difficoltà, i pericoli da evitare, l'imbarco, lo sbarco..." />
+<meta name="verify-v1" content="WZLlJNeLkSySoGsfzZKbP91b+MogLp2Um8SNjdqX+m0=" />
+<link href="/css/defaults.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/dyna.js"></script>
+<script type="text/javascript" src="/js/p_switch.js"></script>	
+<script type="text/javascript" src="/js/net/ckfiumi/prototype.js"></script>
+<script type="text/javascript" src="/js/net/ckfiumi/text-utils.js"></script>
+<!--<script type="text/javascript" src="/js/lightbox2.js"></script>	-->
+</head>
+<body onload="initDynamicOptionLists();">
+<div id="container">
+	<div id="header">
+<!--	<a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	&nbsp;<a href="http://forum.ckfiumi.net"><img src="/img/cki_logo.gif" alt="logo CKI" style="border:none" /></a>
+-->	</div>
+	<div id="mainFront">
+	  	<img id="a" src="/img/header/06.jpg" alt="immagine principale" width="732" height="102" style="vertical-align : middle;"/>
+	</div>
+    <div id="containerMenu"><div
+   		 id="menu_left"><img src="/img/sfondo_barra_sx.gif"  alt="" /></div><div
+		  id="menu_right"><img src="/img/sfondo_barra_dx.gif"  alt="" /></div><div
+		  id="menu_orizz">
+			<a  class="menu" href="/">Home</a> |
+			<a  class="menu" href="/fiume.phtml">Fiumi</a> |
+			<a  class="menu_selected_U" href="/news/calendario.phtml">Appuntamenti</a> |
+			<a  class="menu" href="/mercatino_canoa_kayak_usati.phtml">Mercatino</a> |
+			<a  class="menu" href="http://forum.ckfiumi.net">Forums CKI</a> |
+			<a  class="menu" href="/racconti.phtml">Vita di Fiume</a> |
+			<a  class="menu" href="/contatto.phtml">Scrivici</a> |
+			<a  class="menu" href="/login.phtml">Login</a> |
+		</div>
+	</div> <!-- chiude div_containerMenu -->
+<!-- FINE HEADER -->	
+
+
+
+	<!-- BEGIN MAIN AREA -->
+	<div id="main">
+		<table cellpadding="0" cellspacing="0" class="zeTabo" border="1">
+      	<tr>
+        	<td class="sxCol">
+			<div id="elCont">
+				<div id="elCont_left" class="z_calendario"></div><div
+		  		id="elCont_right">Appuntamenti del mese</div>
+			</div>
+			<div id="sottoElCont">	
+				<form id="LOC" action="/news/calendario.phtml" method="post">
+				<!-- BEGIN  CONTENTS -->
+				
+<div style="float:left;margin-top:5px;margin-left:10px;border:1px solid #2E6287;text-align:center;width:330px;">
+		<table border="0"  cellspacing="2" style="text-align:center;width:330px" >
+			<tr>
+			<td align="right" valign="top" class="listchiara">
+			<select name="m">
+				
+				<option value="1" >Gennaio</option>
+				
+				<option value="2" >Febbraio</option>
+				
+				<option value="3" >Marzo</option>
+				
+				<option value="4" >Aprile</option>
+				
+				<option value="5" >Maggio</option>
+				
+				<option value="6"  selected="selected">Giugno</option>
+				
+				<option value="7" >Luglio</option>
+				
+				<option value="8" >Agosto</option>
+				
+				<option value="9" >Settembre</option>
+				
+				<option value="10" >Ottobre</option>
+				
+				<option value="11" >Novembre</option>
+				
+				<option value="12" >Dicembre</option>
+				
+			</select>
+			<select name="y">
+				
+				<option value="2006" >2006</option>
+				
+				<option value="2007" >2007</option>
+				
+				<option value="2008" >2008</option>
+				
+				<option value="2009"  selected="selected">2009</option>
+				
+				<option value="2010" >2010</option>
+				
+			</select>
+			<input  class="bottone"  type="submit" name="cerca" value="cerca" />
+			</td>
+			</tr>	
+		</table>
+		<table border="0" cellspacing="2" style="text-align:center;width:330px">	
+		<tr>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>D</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>L</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>M</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>G</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>V</b></td>
+			
+			<td align="center" valign="top" class="calendarHeader"><b>S</b></td>
+			
+		</tr>
+ 		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287">&nbsp;</td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=1&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a14">1</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=2&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a14">2</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=3&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a14">3</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=4&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a14">4</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=5&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a5">5</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=6&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a5">6</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=7&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a7">7</a></td>
+			<td style="border:1px solid #2E6287" >8</td>
+			<td style="border:1px solid #2E6287" class="day">9</td>
+			<td style="border:1px solid #2E6287" class="day">10</td>
+			<td style="border:1px solid #2E6287" class="day">11</td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=12&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a12">12</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=13&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a13">13</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=14&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a13">14</a></td>
+			<td style="border:1px solid #2E6287" >15</td>
+			<td style="border:1px solid #2E6287" class="day">16</td>
+			<td style="border:1px solid #2E6287" class="day">17</td>
+			<td style="border:1px solid #2E6287" class="day">18</td>
+			<td style="border:1px solid #2E6287" class="day">19</td>
+			<td style="border:1px solid #2E6287" class="day">20</td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=21&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a21">21</a></td>
+			<td style="border:1px solid #2E6287" >22</td>
+			<td style="border:1px solid #2E6287" class="day">23</td>
+			<td style="border:1px solid #2E6287" class="day">24</td>
+			<td style="border:1px solid #2E6287" class="day">25</td>
+			<td style="border:1px solid #2E6287" class="day">26</td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=27&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a27">27</a></td>
+		</tr> 
+		
+ 		<tr>
+			<td class="day" style="background-color:#c7c7c7;border:1px solid #2E6287"><a class="day_busy" href="/news/calendario.phtml?d=28&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a27">28</a></td>
+			<td style="border:1px solid #2E6287" ><a class="day_busy" href="/news/calendario.phtml?d=29&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a27">29</a></td>
+			<td style="border:1px solid #2E6287" class="day"><a class="day_busy" href="/news/calendario.phtml?d=30&amp;m=6&amp;y=2009&amp;Dove=&amp;Tipo=&amp;Difficolta=#a27">30</a></td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+			<td style="border:1px solid #2E6287" class="day">&nbsp;</td>
+		</tr> 
+		
+		</table>
+		
+		<div style="width:150px;margin-top:3px;margin-bottom:5px;padding-bottom:5px;border:1px solid #2E6287 ">
+			<a style="color:#2E6287;font-weight:bold;padding-left:10px;padding-right:10px;padding-bottom:2px;"   href="/news/calendario.phtml?ev_status=2">inserisci una data</a>
+		</div>
+</div>
+
+
+<div style="float:left;margin-left:30px;margin-top:22px;padding:4px;background-color:#EAEBEE;border:1px solid #CACAD2;">
+	tipo di appuntamento<br/>
+	<select class="sel_formRicercaEventi" name="Tipo">
+		<option value=""></option>
+		
+		<option value="Gara" >Gara</option>
+		
+		<option value="Raduno" >Raduno</option>
+		
+		<option value="Rodeo" >Rodeo</option>
+		
+		<option value="Serata Video" >Serata Video</option>
+		
+		<option value="Spedizione/Tour" >Spedizione/Tour</option>
+		
+		<option value="Uscita" >Uscita</option>
+		
+	</select><br/>
+	dove<br/>
+	<select class="sel_formRicercaEventi" name="Dove">
+		<option value=""></option>
+		
+		<option value="Acqua Bianca" >Acqua Bianca</option>
+		
+		<option value="Fiume" >Fiume</option>
+		
+		<option value="Lago" >Lago</option>
+		
+		<option value="Mare" >Mare</option>
+		
+		<option value="Piscina" >Piscina</option>
+		
+		<option value="Sala" >Sala</option>
+		
+		<option value="Spot" >Spot</option>
+		
+	</select><br/>
+	adatto per<br/>
+	<select class="sel_formRicercaEventi" name="Difficolta">
+		<option value=""></option>
+		
+		<option value="Tutti" >Tutti</option>
+		
+		<option value="Principianti" >Principianti</option>
+		
+		<option value="Intermedi" >Intermedi</option>
+		
+		<option value="Esperti" >Esperti</option>
+		
+	</select><br/>
+	<input style="margin-left:40px;"  class="bottone"  type="submit" name="go" value="cerca" />
+</div>
+<div style="height:240px">&nbsp;</div>
+<div style="color:red;font-weight:bold;margin-bottom:6px;margin-top:16px;text-align:center"> </div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a30" name="a30" class="">30/05/2009 02/06/2009 Uscita</a><br/> adatto a Intermedi</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Uscita sul fiume Soca (Slovenia).<br />
+Organizza ROMA KAYAK MUNDI.<br/>
+				tel: Cerasari Daniela 339-2422894  Claudio Magrini 335-6657068<br/>
+				email: aricciarola@yahoo.it   magriniclaudio@tiscali.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a30" name="a30" class="">30/05/2009 07/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Bibionekayak 2009: una spettacolare settimana di eventi all'insegna del kayak che si terrà a Bibione, presso il Villaggio Turistico Capalonga dal 30 Maggio al 7 Giugno 2009. Breve sommario: Vogalonga con Karen Darke, corsi ed incontri con esperti italiani e stranieri, la FIERA DEL KAYAK con produttori e rivenditori di kayak italiani, il raduno dei COSTRUTTORI DI KAYAK IN LEGNO, la prima edizione della BLUE LAGOON KAYAK MARATHON per kayak da fiume e da mare, outriggers e surf-skis e ... tante altre bellissime iniziative! www.bibionekayak.com<br/>
+				tel: 339-3190785 Giorgio Sartori<br/>
+				email: info@bibionekayak.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a5" name="a5" class="">05/06/2009 07/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Il CKF - Canoa Kayak Friuli come associazione Sportiva e Culturale organizza la prima edizione del Raduno di Costruttori di Canoe e Kayak in Legno.<br />
+L’ evento si terrà presso il Camping Capalonga a Bibione (Ve) dal 5 al 7 Giugno 2009 in occasione di Bibione Kayak.<br />
+<br />
+    * Esposizione di Kayak ed Accessori costruiti in Strip;<br />
+    * Glass, Skin On Frame, Stitch & Glue;<br />
+    * Dimostrazione di costruzione kayak e pagaie;<br />
+    * Prove tecniche di costruzione per i partecipanti;<br />
+    * Software e progetti dimostrativi;<br />
+    * Prove in acqua;<br />
+<br />
+Per programma completo visita: http://www.canoafriuli.com/2009/01/09/primo-raduno-costruttori-kayak-in-legno/<br/>
+				tel: Fabio 328 / 3840641<br/>
+				email: info@bibionekayak.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a7" name="a7" class="">07/06/2009 07/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Pagaiata per Chioggia con uscita in laguna, discesa a Pellestrina con pranzo al sacco, e ritorno.  <br/>
+				tel: guglielmo 3394667395<br/>
+				email: vale17@libero.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a7" name="a7" class="">07/06/2009 07/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      giornata dedicata a tutti i canoisti e alle canoe di ogni tipo(discesa,mare,polinesiana....),con un suggestivo percorso sottocosta di circa 10 Km., che si snoda tra le due baie di Sestri Levante lungo un tratto di costa tra i più belli del Tigullio.<br/>
+				tel: Dentone Danilo 3475372010<br/>
+				email: sestrilevante@leganavale.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a12" name="a12" class="">12/06/2009 14/06/2009 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      ..."LA PAGAIANDO PEDALANDO ”...<br />
+Il 12-13-14 giugno 2009 si avrà la possibilità di provare la canoa, il kayak, di vedere filmati, ascoltare musica, scendere il naviglio in tutta sicurezza in kayak, oppure in bici.<br />
+Inoltre domenica 14 giugno, una discesa aperta a tutti da Villa Fornaci fino alla sede del CFM.<br />
+Ma non solo, anche una grande festa, una buona grigliata, ottima musica, divertimenti, amici, allieteranno i pomeriggi e le serate del 12-13-14 giugno.  Non mancate!!!!!!!!!!!!!!<br />
+Ecco un modo nuovo di vivere la natura, di vivere il Naviglio della Martesana…il CFM.<br />
+Visitate il nostro sito www.canoamartesana.it   <br />
+e…vi attendiamo in sede….<br />
+Grandi pagaiate & sorrisi felici<br />
+Roby Bobby 007<br />
+in arte Roberto Ripamonti)<br />
+<br/>
+				tel: 338 2723730<br/>
+				email: bobby007james@libero.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a13" name="a13" class="">13/06/2009 14/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      L'altra metà del mare - I raduno di kayak da mare e non solo<br />
+13 e 14 giugno 2009 -Tombolo della Feniglia - Monte Argentario.<br />
+Appuntamento da non perdere, aperto a tutti, con giochi in acqua per adulti e bambini e tanto divertimento in spiaggia dall'alba al tramonto: yoga e tai-chi, frullati e frittate, video e foto, esibizione di eskimo, racconti intorno al fuoco. <br/>
+				tel: Tatiana Cappucci 338-4746694  <br/>
+				email:  info@tatianacappucci.it <br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a13" name="a13" class="">13/06/2009 14/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Sabato 13 e domenica 14 Giugno, festa e raduno in Val di Sole a Caldes presso la nuova base di Xrafting valdisole, c/o Centro Sportivo Le Contre, con discese sul Noce ( III - IV ) per esperti, uscite al Lago di S. Giustina per tutti, escursioni in mountainbike su pista ciclabile per famiglie o freeride-dh organizzato con bus navette, test boats "wavesport" con il team Ozone, festa con musica dal vivo e grigliata,...e molto altro! Possibilità di sosta camper service presso la base oppure agriturismo/residence convenzionati. <br/>
+				tel: 0463 902990<br/>
+				email: info@raftingvaldisole.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a13" name="a13" class="">13/06/2009 14/06/2009 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Corso di sicurezza fluviale.<br />
+Organizzano i tecnici FICT del ROMA KAYAK MUNDI.<br/>
+				tel: Maurizio Consalvi 340-3996045 e Paolo Palmieri 339-2093954<br/>
+				email: maurizioconsalvi@yahoo.it  palmieri.paolo@alitalia.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a14" name="a14" class="">14/06/2009 14/06/2009 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      25esima edizione della Pedalando & Pagaiando lungo il Naviglio Martesana. Imbarco a Villa Fornaci, sbarco a Cernusco sul Naviglio presso sede della Canoa Fluviale Martesana. www.canoamartesana.it/festacanoa.asp<br/>
+				tel: 3479253617<br/>
+				email: iscrizioni@canoamartesana.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a21" name="a21" class="">21/06/2009 21/06/2009 Uscita</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      A Genova Sturla, assistenza in mare con i kayak alla gara di nuoto.<br/>
+				tel: Canoaverde 010 3726417 Giovanni 3209227750<br/>
+				email: canoaverde@canoaverde.org<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a21" name="a21" class="">21/06/2009 21/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Due Castelli (TS), pagaiando con il WWF<br />
+<br />
+Il CKF - Canoa Kayak Friuli organizza una pagaiata di circa 20 km in costiera triestina, dal Castello di Duino alla Riserva Marina di Miramare, con pranzo e visita dell' Oasi in collaborazione con l' Area Marina protetta di Miramare.<br />
+<br />
+www.canoafriuli.com<br/>
+				tel: Fabio Carletti 340/5467279<br/>
+				email: info@canoafriuli.com<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a27" name="a27" class="">27/06/2009 29/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      il tradizionale raduno  "città di Gaeta" di giugno diventa internazionale e per la prima volta parte dalle stupende spiagge di Sperlonga. Tre giorni di sole, mare e sport pagaiando sulle acque della riviera di Ulisse. E specialità gastronomiche da gustare sulle spiagge e nei caratteristici locali di Gaeta.<br />
+info www.oasigaeta.it<br/>
+				tel: 3331741094  3290049015<br/>
+				email: ramatar@alice.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a27" name="a27" class="">27/06/2009 04/07/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Mare.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Raduno degli Dei di kayak da mare a Tropea, adatto a tutti, alloggio in villaggio e campeggio<br/>
+				tel: +39 06 45555270-271<br/>
+				email: max@gravitazero.info<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a27" name="a27" class="">27/06/2009 27/06/2009 Gara</a><br/> adatto a Esperti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Acqua_Bianca.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      2^ edizione del Triathlon Valsesiano: canoa fluviale, arrampicata (bouldering), mountain-bike. La gara è a squadre, ogni atleta gareggia per la propria disciplina creando la squadra con altri atleti, oppure può creare la squadra individualmente gareggiano per tutte e tre le discipline.<br />
+Canoa: nel paese di Campertogno, specialità border cross. Mountain-bike: nel comprensorio del comune di Campertogno. Arrampicata: sulla struttura fissa artificale (boulder) in Eddyline e su un'altra struttura montata per l'evento sempre in Eddyline. Premi per i primi classificati maschile e femminile di disciplina e per le prime tre squadre.<br />
+www.eddyline.it - www.triathlonvalsesiano.it<br/>
+				tel: 347.6439869 - 0163.775114<br/>
+				email: federico.maggiani@eddyline.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a27" name="a27" class="">27/06/2009 27/06/2009 Gara</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Spot.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      AQUATHLON 16^ edizione.<br />
+Il 27 giugno 2009 nel Parco del Ticino si terrà la staffetta di 5 frazioni di sport diversi: Kayak, mountain bike, nuoto, corsa e canoa canadese.Partenza ed arrivo sono fissati a Castelletto di Cuggiono Via al Ponte, 5 alla sede nautica del Canoa Club Milano.<br />
+E’ prevista la partecipazione a squadre composte da 6 persone che si impegnano in frazioni di sport diversi, secondo il programma sintetico allegato.<br/>
+				tel: 02 - 9746964<br/>
+				email: info@canoaclubmilano.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="evidenzia" >
+		<div class="elencoContainer">
+			<div class="elencoSx">
+		       <p><b><a id="a28" name="a28" class="">28/06/2009 28/06/2009 Raduno</a><br/> adatto a Tutti</b></p>
+		    </div>
+		
+		    <div class="elencoDx">
+		       <img src="/img/calendario/Fiume.gif"  alt="" />
+		    </div>
+			<div class="elencoEvento"><p>
+		      Decimo raduno nel Delta del Po con discesa nel Po di Gnocca, uscita in mare, bagno e punto ristoro nell'isola del Bacucco. Escursione naturalistica nella zona più bella del Delta; ritorno con pranzo in ostello.<br/>
+				tel: germano 0426-633474<br/>
+				email: germanoreale50@libero.it<br/></p>
+		    </div>
+		</div>
+	</div>
+	
+
+
+
+				<!-- END  CONTENTS -->
+				</form>
+			</div>
+			</td>
+        	<td class="dxCol">
+				<!-- INIZIO MENU DX -->
+			<div id="menudx">
+			<ul>
+				<li class="submenu_selected_U"><a href="/news/calendario.phtml">Calendario</a></li>
+				<li class="menu"><a href="/news/rss.phtml">Consulta i Forum (rss)</a></li>
+			</ul>
+			</div>
+			<div class="textWel">
+		 	 <a href="/registra.phtml">Diventa anche tu un editore!</a>
+		  	</div>	
+			<div class="textWel">
+			<p>E' a disposizione il calendario delle attività dei canoisti made in Italy<br/>
+			<br/>per inserire un appuntamento <a href="/news/calendario.phtml?ev_status=2">clicca qui</a>
+			</p>
+			</div>
+			<div class="textWel">
+			<p>TI RICORDIAMO CHE:<br/>
+			1- Prima di partire è buona norma telefonare agli organizzatori per chiedere
+			conferma dell' evento.<br/>
+			2- Consulta le news aggiornate sul <a href="/news/rss.phtml">forum di CKI</a> per le ultime novità
+			</p>
+			</div>
+			
+<!-- FINE MENU DX -->		
+			</td>
+      	</tr>
+    	</table>
+	</div>
+	<!-- END MAIN AREA -->
+		<!-- INIZIO FOOTER -->
+		<div id="footer">
+		      <p><a href="/">home</a> &#8226;  
+			  <a href="/fiume.phtml">fiumi</a> &#8226; 
+			  <a href="/ricerca.phtml">ricerca fiumi</a> &#8226;
+			  <a href="/help.phtml">come funziona</a>  &#8226;
+			  <a href="/gradi.phtml">I gradi WW</a> &#8226; 
+			  <a href="/contatto.phtml">scrivici</a> &#8226; 
+			  <a href="/profilo.phtml/dani">webmaster</a>  
+			  </p>
+				<p>&copy; 2006 Le informazioni e i consigli forniti in questa guida, sono redatte da canoisti volontari se ne vieta pertanto la duplicazione, riproduzione o 
+			pubblicazione  anche parziale per fini commerciali<br/>
+			</p>
+	<p class="loghi"><a href="/redirect.phtml?target=fick" rel="nofollow"><img src="/img/sponsor/logo_fick_micro.jpg" style="border:0px" alt="FICK"/></a>
+	&nbsp;<a href="/redirect.phtml?target=fict" rel="nofollow"><img src="/img/sponsor/logo_fict_micro.jpg" style="border:0px" alt="FICT"/></a>
+	&nbsp;<a href="/redirect.phtml?target=uisp" rel="nofollow"><img src="/img/sponsor/logo_uisp_micro.jpg" style="border:0px" alt="UISP"/></a>
+	</p>
+		</div>
+	</div> <!-- fine div "container" -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-666569-2";
+urchinTracker();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

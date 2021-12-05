@@ -1,0 +1,58 @@
+(function() {
+	window.CK = window.CK || {};
+	CK.domain_img='//www.ckfiumi.net';
+   CK.putAt = function (ele, pos){
+   		window.scrollTo(1,ele.offset().top + parseInt(pos));	
+	};
+	CK.updCounter = function(eleWatched,maxlen){
+		maxlen = parseInt(maxlen);
+		var counter = eleWatched.val().length;
+   	console.log("len:" + counter);
+     	$("#count").html(counter);
+     	$("#countdiff").html(maxlen-counter);
+		((counter > maxlen)? $('#textlong').show():$('#textlong').hide() );
+	};
+}).call(this);
+$(document).ready(function() {
+	$(window).bind('load',function(i) {setTimeout(function() { window.scrollTo(0, 1) }, 100);});
+  if ('standalone' in navigator && !navigator.standalone && (/iphone|ipod|ipad/gi).test(navigator.platform) && (/Safari/i).test(navigator.appVersion)) {
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) {return; }
+  		js = d.createElement(s); js.id = id;
+  		js.src = "/js/add2home.js";
+  		fjs.parentNode.insertBefore(js, fjs);
+  		var css, fcss = d.getElementsByTagName('link')[0];
+  		css = d.createElement('link'); css.id = id + 'css'; css.type = 'text/css';css.media= 'all';css.rel = 'stylesheet';
+  		css.href = "/css/add2home.css";
+  		fcss.appendChild(css);}(document, 'script', 'add2home'));
+	}
+});
+$(window).load(function() {
+	CK.lazy={
+		images : {
+/*		 '#imgE':(function(){
+			var uno = '<a href="/redirect.phtml?t=rescuelab.it"><img src="'+CK.domain_img+'/rep/b/rescuelab.jpg" alt=""></a>';
+			return ('<header class="home-foto-header"></header>'+ uno);
+		}),
+*/		'#imgB': (function(){
+			var uno= (Math.floor((Math.random()*2)+1) ==1)?
+			 '<a href="/redirect.phtml?t=freeflow" rel="nofollow"><img alt="foto Francesco Salvato sul ??" title="In equilibrio sull\' acqua: il nuovo libro di Francesco Salvato" src="'+CK.domain_img+'/rep/equilibrio-acqua-salvato-ico.jpg" /></a><p>Il nuovo libro</p>'
+			:'<a href="/redirect.phtml?t=freeflow" rel="nofollow"><img src="//www.ckfiumi.net/rep/hips-salvato-ico.jpg" /></a><p>Il DVD</p>';
+			return ('<header class="home-foto-header"><strong>La tecnica del kayak<br /> di Francesco Salvato</strong></header>'+ uno);
+		})
+		,'#imgG':(function(){
+			var uno = '<a href="http://forum.ckfiumi.net/index.php/topic,5028.msg19396.html#msg19396"><strong>Raduno Candigliano<br />11-12 Aprile 2015</strong></a>';
+			return ('<header class="home-foto-header"></header>' + uno);
+		})
+		
+	},
+		load: function(){
+			var self = this;
+			for(id in self.images){
+				$(id).html(self.images[id].call());
+			}
+		}
+	}	
+	CK.lazy.load();
+});
